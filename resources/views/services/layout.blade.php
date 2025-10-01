@@ -40,7 +40,7 @@
                     @yield('hero_description')
                 </p>
                 <div class="flex flex-col sm:flex-row gap-4 justify-center">
-                    <a href="#contact-section" class="inline-flex items-center justify-center px-8 py-4 bg-gradient-hero text-white text-base font-semibold rounded-lg hover:shadow-xl hover:scale-105 transition-all duration-200">
+                    <a href="#contact" class="inline-flex items-center justify-center px-8 py-4 bg-gradient-hero text-white text-base font-semibold rounded-lg hover:shadow-xl hover:scale-105 transition-all duration-200">
                         {{ __('services.cta_start_project') }}
                         <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/>
@@ -67,7 +67,7 @@
                 <p class="text-xl mb-8 text-white/90">
                     {{ __('services.cta_description') }}
                 </p>
-                <a href="{{ url("/{$locale}#contact") }}" class="inline-flex items-center px-8 py-4 bg-white text-primary-600 text-base font-semibold rounded-lg hover:shadow-xl hover:scale-105 transition-all duration-200">
+                <a href="#contact" class="inline-flex items-center px-8 py-4 bg-white text-primary-600 text-base font-semibold rounded-lg hover:shadow-xl hover:scale-105 transition-all duration-200">
                     {{ __('services.cta_contact') }}
                     <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/>

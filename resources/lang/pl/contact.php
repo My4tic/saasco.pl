@@ -21,8 +21,11 @@ return [
     'company_info' => 'Dane firmy',
     'company_name' => 'Nazwa firmy',
     'nip' => 'NIP',
+    'krs' => 'KRS',
     'address' => 'Adres',
     'direct_contact' => 'Kontakt bezpośredni',
+    'business_hours' => 'Godziny pracy',
+    'weekdays' => 'Poniedziałek - Piątek',
     'response_time_title' => 'Czas odpowiedzi',
     'response_time_text' => 'Odpowiadamy na wszystkie zapytania w ciągu 24 godzin roboczych.',
 ];

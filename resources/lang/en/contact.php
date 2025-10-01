@@ -20,9 +20,12 @@ return [
 
     'company_info' => 'Company Information',
     'company_name' => 'Company Name',
-    'nip' => 'Tax ID',
+    'nip' => 'Tax ID (NIP)',
+    'krs' => 'Company Registration (KRS)',
     'address' => 'Address',
     'direct_contact' => 'Direct Contact',
+    'business_hours' => 'Business Hours',
+    'weekdays' => 'Monday - Friday',
     'response_time_title' => 'Response Time',
     'response_time_text' => 'We respond to all inquiries within 24 business hours.',
 ];

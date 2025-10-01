@@ -13,4 +13,5 @@
     @include('services.partials.tech-stack', ['service' => 'saas'])
     @include('services.partials.process', ['service' => 'saas'])
     @include('services.partials.faq', ['service' => 'saas'])
+    @include('services.partials.contact-form')
 @endsection

@@ -13,4 +13,5 @@
     @include('services.partials.tech-stack', ['service' => 'ai'])
     @include('services.partials.process', ['service' => 'ai'])
     @include('services.partials.faq', ['service' => 'ai'])
+    @include('services.partials.contact-form')
 @endsection

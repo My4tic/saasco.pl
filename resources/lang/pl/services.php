@@ -138,11 +138,17 @@ return [
       'description' => 'Testy funkcjonalne, bezpieczeństwa, wydajności',
       'duration' => '1-2 tygodnie',
     ],
-    4 => 
+    4 =>
     [
       'title' => 'Wdrożenie',
       'description' => 'Deployment, monitoring, onboarding pierwszych klientów',
       'duration' => '1 tydzień',
+    ],
+    5 =>
+    [
+      'title' => 'Optymalizacja i Wzrost',
+      'description' => 'Analiza metryk, optymalizacja konwersji, rozwój funkcjonalności',
+      'duration' => 'Ciągły proces',
     ],
   ],
   'saas_faq' => 
@@ -167,10 +173,20 @@ return [
       'question' => 'Jakie integracje płatności są możliwe?',
       'answer' => 'Standardowo integrujemy Stripe lub PayPal. Możemy też zintegrować Przelewy24, Tpay lub inne bramki płatności.',
     ],
-    4 => 
+    4 =>
     [
       'question' => 'Czy platforma będzie skalowalna?',
       'answer' => 'Tak, projektujemy architekturę z myślą o skalowalności. Używamy auto-scalingu, CDN i optymalizacji wydajności.',
+    ],
+    5 =>
+    [
+      'question' => 'Jak wygląda bezpieczeństwo danych użytkowników?',
+      'answer' => 'Implementujemy najwyższe standardy bezpieczeństwa: szyfrowanie SSL, 2FA, regularne audyty, backup i zgodność z GDPR/RODO.',
+    ],
+    6 =>
+    [
+      'question' => 'Czy mogę zobaczyć demo przed rozpoczęciem projektu?',
+      'answer' => 'Tak, możemy przygotować prototyp/mockup wybranych ekranów, aby zweryfikować wizję produktu przed rozpoczęciem pełnego rozwoju.',
     ],
   ],
   'business_meta_title' => 'Aplikacje Biznesowe - CRM, ERP, Systemy B2B',
@@ -282,11 +298,17 @@ return [
       'description' => 'UAT, szkolenia użytkowników',
       'duration' => '2 tygodnie',
     ],
-    4 => 
+    4 =>
     [
       'title' => 'Wdrożenie',
       'description' => 'Go-live, wsparcie wdrożeniowe',
       'duration' => '1-2 tygodnie',
+    ],
+    5 =>
+    [
+      'title' => 'Wsparcie i Rozwój',
+      'description' => 'Ciągłe wsparcie, aktualizacje, nowe funkcjonalności',
+      'duration' => 'Ciągły proces',
     ],
   ],
   'business_faq' => 
@@ -301,10 +323,30 @@ return [
       'question' => 'Czy można zintegrować z naszym ERP?',
       'answer' => 'Tak, integrujemy się z popularnymi systemami ERP poprzez API lub direct database integration.',
     ],
-    2 => 
+    2 =>
     [
       'question' => 'Jak wygląda szkolenie użytkowników?',
       'answer' => 'Prowadzimy szkolenia online i on-site. Przygotowujemy też dokumentację i video tutorials.',
+    ],
+    3 =>
+    [
+      'question' => 'Ile kosztuje dedykowany system CRM/ERP?',
+      'answer' => 'Koszt zależy od zakresu funkcjonalności. Prosty CRM to ok. 60-100k PLN, bardziej złożony system z integracjami 150-250k PLN.',
+    ],
+    4 =>
+    [
+      'question' => 'Czy system może rosnąć razem z firmą?',
+      'answer' => 'Tak, projektujemy systemy modularnie, aby można było łatwo dodawać nowe funkcjonalności w miarę rozwoju firmy.',
+    ],
+    5 =>
+    [
+      'question' => 'Czy muszę mieć własny serwer?',
+      'answer' => 'Nie, możemy wdrożyć system w chmurze (AWS, Azure, Google Cloud) lub na naszej infrastrukturze. Własny serwer jest opcjonalny.',
+    ],
+    6 =>
+    [
+      'question' => 'Jak długo trwa wdrożenie dla zespołu 50 osób?',
+      'answer' => 'Wdrożenie obejmuje instalację, konfigurację, import danych i szkolenia. Dla 50 osób to około 2-3 tygodnie.',
     ],
   ],
   'mvp_meta_title' => 'MVP dla Startupów - Szybka weryfikacja pomysłu',
@@ -407,11 +449,23 @@ return [
       'description' => 'Implementacja MVP',
       'duration' => '2-4 tygodnie',
     ],
-    3 => 
+    3 =>
     [
       'title' => 'Testing & Launch',
       'description' => 'QA, deployment, pierwsi użytkownicy',
       'duration' => '1 tydzień',
+    ],
+    4 =>
+    [
+      'title' => 'Zbieranie Feedback',
+      'description' => 'Analiza zachowań użytkowników, ankiety, rozmowy',
+      'duration' => '2-3 tygodnie',
+    ],
+    5 =>
+    [
+      'title' => 'Iteracje i Rozwój',
+      'description' => 'Ulepszenia na podstawie danych, planowanie kolejnych funkcji',
+      'duration' => 'Ciągły proces',
     ],
   ],
   'mvp_faq' => 
@@ -426,10 +480,30 @@ return [
       'question' => 'Co będzie po MVP?',
       'answer' => 'Po zebraniu feedback możemy rozwijać produkt dalej, dodając nowe funkcje w kolejnych iteracjach.',
     ],
-    2 => 
+    2 =>
     [
       'question' => 'Czy mogę pozyskać inwestora z MVP?',
       'answer' => 'Tak! Działający MVP + pierwsi użytkownicy to dobra podstawa do rozmów z inwestorami.',
+    ],
+    3 =>
+    [
+      'question' => 'Ile kosztuje MVP?',
+      'answer' => 'MVP kosztuje 30-60k PLN, czyli 3-5x mniej niż pełny produkt. To pozwala zweryfikować pomysł bez dużego ryzyka finansowego.',
+    ],
+    4 =>
+    [
+      'question' => 'Co jeśli MVP się nie sprawdzi?',
+      'answer' => 'To najlepsza informacja! Zaoszczędzisz setki tysięcy złotych, które wydałbyś na pełny produkt. Można też pivotować i spróbować innego podejścia.',
+    ],
+    5 =>
+    [
+      'question' => 'Czy MVP będzie działać na produkcji?',
+      'answer' => 'Tak, MVP to w pełni funkcjonalny produkt, tylko z ograniczonym zakresem funkcji. Jest gotowy do użycia przez prawdziwych użytkowników.',
+    ],
+    6 =>
+    [
+      'question' => 'Jak szybko mogę zacząć zbierać feedback?',
+      'answer' => 'Po 4-8 tygodniach masz działający produkt i możesz od razu zacząć testy z użytkownikami oraz zbierać cenne dane.',
     ],
   ],
   'ai_meta_title' => 'Rozwiązania AI - Chatboty, ML, Automatyzacja',
@@ -533,11 +607,23 @@ return [
       'description' => 'Implementacja, training modeli',
       'duration' => '4-6 tygodni',
     ],
-    3 => 
+    3 =>
     [
       'title' => 'Integration & Launch',
       'description' => 'Integracja z systemami, deployment',
       'duration' => '2 tygodnie',
+    ],
+    4 =>
+    [
+      'title' => 'Monitoring & Fine-tuning',
+      'description' => 'Analiza wyników, dostrajanie modeli, optymalizacja',
+      'duration' => '2-4 tygodnie',
+    ],
+    5 =>
+    [
+      'title' => 'Rozwój i Ulepszenia',
+      'description' => 'Nowe funkcje AI, aktualizacje modeli, scaling',
+      'duration' => 'Ciągły proces',
     ],
   ],
   'ai_faq' => 
@@ -552,10 +638,30 @@ return [
       'question' => 'Ile kosztuje implementacja chatbota?',
       'answer' => 'Prosty chatbot z GPT-4 to 20-30k PLN. Custom ML model to 50-80k PLN. Zależy od złożoności.',
     ],
-    2 => 
+    2 =>
     [
       'question' => 'Czy trzeba mieć dużo danych?',
       'answer' => 'Zależy od przypadku. Do chatbotów wystarczą przykładowe Q&A. Do ML trzeba więcej danych lub możemy użyć transfer learning.',
+    ],
+    3 =>
+    [
+      'question' => 'Jak długo trwa wdrożenie chatbota?',
+      'answer' => 'Prosty chatbot z GPT-4 można wdrożyć w 3-4 tygodnie. Bardziej zaawansowane rozwiązanie z custom logic to 6-8 tygodni.',
+    ],
+    4 =>
+    [
+      'question' => 'Czy chatbot będzie obsługiwał polski język?',
+      'answer' => 'Tak, GPT-4 doskonale radzi sobie z językiem polskim. Możemy też trenować custom modele specyficzne dla branży.',
+    ],
+    5 =>
+    [
+      'question' => 'Co jeśli AI będzie udzielać błędnych odpowiedzi?',
+      'answer' => 'Implementujemy mechanizmy walidacji, fallback do człowieka, confidence scoring i ciągły monitoring jakości odpowiedzi.',
+    ],
+    6 =>
+    [
+      'question' => 'Czy mogę zintegrować AI z moim systemem?',
+      'answer' => 'Tak, możemy zintegrować AI z CRM, helpdesk, e-commerce i innymi systemami poprzez API lub webhooks.',
     ],
   ],
   'integration_meta_title' => 'Integracje i Automatyzacje - API, Workflow',
@@ -660,11 +766,23 @@ return [
       'description' => 'Implementacja connectorów i middleware',
       'duration' => '3-6 tygodni',
     ],
-    3 => 
+    3 =>
     [
       'title' => 'Testing & Deploy',
       'description' => 'Testy integracyjne, wdrożenie',
       'duration' => '1-2 tygodnie',
+    ],
+    4 =>
+    [
+      'title' => 'Stabilizacja',
+      'description' => 'Monitoring przepływów danych, optymalizacja wydajności',
+      'duration' => '2-3 tygodnie',
+    ],
+    5 =>
+    [
+      'title' => 'Utrzymanie i Rozwój',
+      'description' => 'Nowe integracje, aktualizacje API, wsparcie',
+      'duration' => 'Ciągły proces',
     ],
   ],
   'integration_faq' => 
@@ -679,10 +797,30 @@ return [
       'question' => 'Ile czasu zajmuje integracja?',
       'answer' => 'Prosta integracja to 1-2 tygodnie. Złożone projekty z wieloma systemami to 6-8 tygodni.',
     ],
-    2 => 
+    2 =>
     [
       'question' => 'Co jeśli system nie ma API?',
       'answer' => 'Możemy zbudować API wrapper, scraping, lub integrować bezpośrednio z bazą danych.',
+    ],
+    3 =>
+    [
+      'question' => 'Ile kosztuje integracja dwóch systemów?',
+      'answer' => 'Prosta integracja przez API to 15-30k PLN. Bardziej złożona z transformacją danych i logiką biznesową 40-70k PLN.',
+    ],
+    4 =>
+    [
+      'question' => 'Czy integracja może się zepsuć po aktualizacji systemu?',
+      'answer' => 'Oferujemy monitoring i wsparcie. Gdy dostawca zmieni API, dostosujemy integrację w ramach pakietu utrzymania.',
+    ],
+    5 =>
+    [
+      'question' => 'Jak często synchronizują się dane?',
+      'answer' => 'Zależy od potrzeb: real-time (webhooks), co kilka minut (polling), raz dziennie (batch). Dostosujemy do wymagań.',
+    ],
+    6 =>
+    [
+      'question' => 'Czy mogę zobaczyć flow danych przed implementacją?',
+      'answer' => 'Tak, przygotowujemy diagram architektury integracyjnej i mapowanie przepływu danych do akceptacji.',
     ],
   ],
   'support_meta_title' => 'Wsparcie i Rozwój - SLA, Maintenance, Updates',
@@ -784,11 +922,23 @@ return [
       'description' => 'Status reports, performance reviews',
       'duration' => 'Miesięcznie',
     ],
-    3 => 
+    3 =>
     [
       'title' => 'Development Sprints',
       'description' => 'Nowe features według roadmapy',
       'duration' => 'Co 2 tygodnie',
+    ],
+    4 =>
+    [
+      'title' => 'Security Updates',
+      'description' => 'Regularne patche bezpieczeństwa, audyty',
+      'duration' => 'Miesięcznie',
+    ],
+    5 =>
+    [
+      'title' => 'Optymalizacja',
+      'description' => 'Performance tuning, refactoring, modernizacja',
+      'duration' => 'Kwartalnie',
     ],
   ],
   'support_faq' => 
@@ -803,10 +953,30 @@ return [
       'question' => 'Co jeśli nie wykorzystam godzin?',
       'answer' => 'Niewykorzystane godziny przechodzą na kolejny miesiąc (max 2 miesiące).',
     ],
-    2 => 
+    2 =>
     [
       'question' => 'Czy można zmienić pakiet?',
       'answer' => 'Tak, można upgrade/downgrade z miesięcznym wyprzedzeniem.',
+    ],
+    3 =>
+    [
+      'question' => 'Czy wsparcie obejmuje nowe funkcjonalności?',
+      'answer' => 'Tak, możesz wykorzystać godziny z pakietu na rozwój nowych funkcji, bugfixy, optymalizacje i konsultacje techniczne.',
+    ],
+    4 =>
+    [
+      'question' => 'Jak szybko reagujecie na awarie?',
+      'answer' => 'Zależy od pakietu i priorytetu: P1 (Critical) - 1h, P2 (High) - 4h, P3 (Normal) - 8h, P4 (Low) - 24h.',
+    ],
+    5 =>
+    [
+      'question' => 'Czy wsparcie działa 24/7?',
+      'answer' => 'Monitoring działa 24/7. Support standardowo pon-pt 8-16, ale możemy przygotować pakiet dedicated 24/7 on-call.',
+    ],
+    6 =>
+    [
+      'question' => 'Co jeśli potrzebuję więcej godzin w danym miesiącu?',
+      'answer' => 'Można dokupić dodatkowe godziny po stawce 400 PLN/h lub tymczasowo przejść na wyższy pakiet.',
     ],
   ],
 ];
