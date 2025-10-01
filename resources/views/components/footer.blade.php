@@ -24,22 +24,22 @@
             <div>
                 <h4 class="text-white font-semibold mb-4">{{ __('footer.services') }}</h4>
                 <ul class="space-y-2 text-sm">
-                    <li><a href="{{ url("/{$locale}/services/saas") }}" class="hover:text-white transition-colors">{{ __('footer.saas') }}</a></li>
-                    <li><a href="{{ url("/{$locale}/services/business") }}" class="hover:text-white transition-colors">{{ __('footer.business_apps') }}</a></li>
-                    <li><a href="{{ url("/{$locale}/services/mvp") }}" class="hover:text-white transition-colors">{{ __('footer.mvp') }}</a></li>
-                    <li><a href="{{ url("/{$locale}/services/ai") }}" class="hover:text-white transition-colors">{{ __('footer.ai') }}</a></li>
-                    <li><a href="{{ url("/{$locale}/services/integrations") }}" class="hover:text-white transition-colors">{{ __('footer.integrations') }}</a></li>
-                    <li><a href="{{ url("/{$locale}/services/support") }}" class="hover:text-white transition-colors">{{ __('footer.support') }}</a></li>
+                    <li><a href="{{ url('/'.app()->getLocale().'/services/saas') }}" class="hover:text-white transition-colors">{{ __('footer.saas') }}</a></li>
+                    <li><a href="{{ url('/'.app()->getLocale().'/services/business') }}" class="hover:text-white transition-colors">{{ __('footer.business_apps') }}</a></li>
+                    <li><a href="{{ url('/'.app()->getLocale().'/services/mvp') }}" class="hover:text-white transition-colors">{{ __('footer.mvp') }}</a></li>
+                    <li><a href="{{ url('/'.app()->getLocale().'/services/ai') }}" class="hover:text-white transition-colors">{{ __('footer.ai') }}</a></li>
+                    <li><a href="{{ url('/'.app()->getLocale().'/services/integrations') }}" class="hover:text-white transition-colors">{{ __('footer.integrations') }}</a></li>
+                    <li><a href="{{ url('/'.app()->getLocale().'/services/support') }}" class="hover:text-white transition-colors">{{ __('footer.support') }}</a></li>
                 </ul>
             </div>
 
             <div>
                 <h4 class="text-white font-semibold mb-4">{{ __('footer.company') }}</h4>
                 <ul class="space-y-2 text-sm">
-                    <li><a href="{{ url("/{$locale}#about") }}" class="hover:text-white transition-colors">{{ __('footer.about') }}</a></li>
-                    <li><a href="{{ url("/{$locale}#portfolio") }}" class="hover:text-white transition-colors">{{ __('footer.portfolio') }}</a></li>
-                    <li><a href="{{ url("/{$locale}#process") }}" class="hover:text-white transition-colors">{{ __('footer.process') }}</a></li>
-                    <li><a href="{{ url("/{$locale}/contact") }}" class="hover:text-white transition-colors">{{ __('footer.contact') }}</a></li>
+                    <li><a href="{{ url('/'.app()->getLocale().'#about') }}" class="hover:text-white transition-colors">{{ __('footer.about') }}</a></li>
+                    <li><a href="{{ url('/'.app()->getLocale().'#portfolio') }}" class="hover:text-white transition-colors">{{ __('footer.portfolio') }}</a></li>
+                    <li><a href="{{ url('/'.app()->getLocale().'#process') }}" class="hover:text-white transition-colors">{{ __('footer.process') }}</a></li>
+                    <li><a href="{{ url('/'.app()->getLocale().'/contact') }}" class="hover:text-white transition-colors">{{ __('footer.contact') }}</a></li>
                 </ul>
             </div>
 
