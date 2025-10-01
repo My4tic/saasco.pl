@@ -9,7 +9,11 @@
       "Bash(php artisan:*)",
       "Bash(php artisan config:clear:*)",
       "Bash(pkill:*)",
-      "Bash(composer require:*)"
+      "Bash(composer require:*)",
+      "Bash(php:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nAdd service detail pages for all 6 services\n\nCreated dedicated pages for each service offering with comprehensive content:\n- SaaS Applications (/services/saas)\n- Business Applications (/services/business) \n- MVP for Startups (/services/mvp)\n- AI Solutions (/services/ai)\n- Integrations & Automations (/services/integrations)\n- Support & Development (/services/support)\n\nFeatures:\n- ServiceController with route validation\n- Reusable layout with hero, breadcrumbs, and CTA sections\n- Extended Polish translations with detailed service content\n- Problem/solution sections, features, tech stack, process timeline, and FAQ\n- Updated service cards on homepage to link to detail pages\n- Locale-aware routing (/{locale}/services/{service})\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
+      "Bash(git config:*)"
     ],
     "deny": [],
     "ask": []
