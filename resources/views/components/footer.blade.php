@@ -24,20 +24,22 @@
             <div>
                 <h4 class="text-white font-semibold mb-4">{{ __('footer.services') }}</h4>
                 <ul class="space-y-2 text-sm">
-                    <li><a href="#services" class="hover:text-white transition-colors">{{ __('footer.saas') }}</a></li>
-                    <li><a href="#services" class="hover:text-white transition-colors">{{ __('footer.business_apps') }}</a></li>
-                    <li><a href="#services" class="hover:text-white transition-colors">{{ __('footer.mvp') }}</a></li>
-                    <li><a href="#services" class="hover:text-white transition-colors">{{ __('footer.ai') }}</a></li>
+                    <li><a href="{{ url("/{$locale}/services/saas") }}" class="hover:text-white transition-colors">{{ __('footer.saas') }}</a></li>
+                    <li><a href="{{ url("/{$locale}/services/business") }}" class="hover:text-white transition-colors">{{ __('footer.business_apps') }}</a></li>
+                    <li><a href="{{ url("/{$locale}/services/mvp") }}" class="hover:text-white transition-colors">{{ __('footer.mvp') }}</a></li>
+                    <li><a href="{{ url("/{$locale}/services/ai") }}" class="hover:text-white transition-colors">{{ __('footer.ai') }}</a></li>
+                    <li><a href="{{ url("/{$locale}/services/integrations") }}" class="hover:text-white transition-colors">{{ __('footer.integrations') }}</a></li>
+                    <li><a href="{{ url("/{$locale}/services/support") }}" class="hover:text-white transition-colors">{{ __('footer.support') }}</a></li>
                 </ul>
             </div>
 
             <div>
                 <h4 class="text-white font-semibold mb-4">{{ __('footer.company') }}</h4>
                 <ul class="space-y-2 text-sm">
-                    <li><a href="#about" class="hover:text-white transition-colors">{{ __('footer.about') }}</a></li>
-                    <li><a href="#portfolio" class="hover:text-white transition-colors">{{ __('footer.portfolio') }}</a></li>
-                    <li><a href="#process" class="hover:text-white transition-colors">{{ __('footer.process') }}</a></li>
-                    <li><a href="#contact" class="hover:text-white transition-colors">{{ __('footer.contact') }}</a></li>
+                    <li><a href="{{ url("/{$locale}#about") }}" class="hover:text-white transition-colors">{{ __('footer.about') }}</a></li>
+                    <li><a href="{{ url("/{$locale}#portfolio") }}" class="hover:text-white transition-colors">{{ __('footer.portfolio') }}</a></li>
+                    <li><a href="{{ url("/{$locale}#process") }}" class="hover:text-white transition-colors">{{ __('footer.process') }}</a></li>
+                    <li><a href="{{ url("/{$locale}/contact") }}" class="hover:text-white transition-colors">{{ __('footer.contact') }}</a></li>
                 </ul>
             </div>
 
@@ -45,17 +47,29 @@
                 <h4 class="text-white font-semibold mb-4">{{ __('footer.contact_us') }}</h4>
                 <ul class="space-y-2 text-sm">
                     <li class="flex items-start">
-                        <svg class="w-5 h-5 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                        <svg class="w-5 h-5 mr-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/>
                         </svg>
-                        kontakt@saasco.pl
+                        <span>{{ __('footer.company_name') }}</span>
                     </li>
                     <li class="flex items-start">
-                        <svg class="w-5 h-5 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <svg class="w-5 h-5 mr-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                        </svg>
+                        <a href="mailto:kontakt@saasco.pl" class="hover:text-white transition-colors">kontakt@saasco.pl</a>
+                    </li>
+                    <li class="flex items-start">
+                        <svg class="w-5 h-5 mr-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
                         </svg>
-                        Polska
+                        <span>{{ __('footer.location') }}</span>
+                    </li>
+                    <li class="flex items-start">
+                        <svg class="w-5 h-5 mr-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+                        </svg>
+                        <span>{{ __('footer.krs') }}</span>
                     </li>
                 </ul>
             </div>

@@ -1,92 +1,92 @@
 <?php
 
 return [
-  'title' => 'Nasze Usługi',
-  'subtitle' => 'Kompleksowe rozwiązania technologiczne dostosowane do potrzeb Twojego biznesu',
-  'saas_title' => 'Aplikacje SaaS',
-  'saas_description' => 'Tworzymy skalowalne platformy SaaS z systemem subskrypcji, panelem administracyjnym i pełną automatyzacją płatności.',
-  'business_title' => 'Aplikacje Biznesowe',
-  'business_description' => 'Dedykowane systemy wspierające procesy w firmie. CRM, ERP-lite, systemy zamówień, platformy B2B.',
-  'mvp_title' => 'MVP dla Startupów',
-  'mvp_description' => 'Szybka weryfikacja pomysłu biznesowego. Funkcjonalny prototyp gotowy do testów z użytkownikami w 4-8 tygodni.',
-  'ai_title' => 'Rozwiązania AI',
-  'ai_description' => 'Implementujemy inteligentne funkcjonalności - chatboty, systemy rekomendacji, analizę predykcyjną.',
-  'integration_title' => 'Integracje i Automatyzacje',
-  'integration_description' => 'Łączenie systemów, integracje API, automatyzacja procesów, migracje danych.',
-  'support_title' => 'Wsparcie i Rozwój',
-  'support_description' => 'Pakiety wsparcia z gwarantowanym SLA, regularne aktualizacje, monitoring i rozwój funkcjonalności.',
-  'learn_more' => 'Dowiedz się więcej',
-  'challenge' => 'Wyzwanie',
-  'solution' => 'Rozwiązanie',
-  'cta_start_project' => 'Rozpocznij projekt',
-  'learn_details' => 'Poznaj szczegóły',
-  'cta_title' => 'Gotowy na rozpoczęcie projektu?',
-  'cta_description' => 'Skontaktuj się z nami i omówmy Twoje potrzeby. Bezpłatna konsultacja, bez zobowiązań.',
-  'cta_contact' => 'Skontaktuj się z nami',
-  'tech_stack_title' => 'Stack Technologiczny',
-  'process_title' => 'Jak Pracujemy',
-  'faq_title' => 'Często Zadawane Pytania',
+  'title' => 'Our Services',
+  'subtitle' => 'Comprehensive technology solutions tailored to your business needs',
+  'saas_title' => 'SaaS Applications',
+  'saas_description' => 'We build scalable SaaS platforms with subscription systems, admin panels, and full payment automation.',
+  'business_title' => 'Business Applications',
+  'business_description' => 'Dedicated systems supporting company processes. CRM, ERP-lite, ordering systems, B2B platforms.',
+  'mvp_title' => 'MVP for Startups',
+  'mvp_description' => 'Fast business idea validation. Functional prototype ready for user testing in 4-8 weeks.',
+  'ai_title' => 'AI Solutions',
+  'ai_description' => 'We implement intelligent features - chatbots, recommendation systems, predictive analytics.',
+  'integration_title' => 'Integrations & Automations',
+  'integration_description' => 'Connecting systems, API integrations, process automation, data migrations.',
+  'support_title' => 'Support & Development',
+  'support_description' => 'Support packages with guaranteed SLA, regular updates, monitoring and feature development.',
+  'learn_more' => 'Learn more',
+  'challenge' => 'Challenge',
+  'solution' => 'Solution',
+  'cta_start_project' => 'Start a Project',
+  'learn_details' => 'Learn Details',
+  'cta_title' => 'Ready to Start Your Project?',
+  'cta_description' => 'Contact us and let\'s discuss your needs. Free consultation, no obligations.',
+  'cta_contact' => 'Contact Us',
+  'tech_stack_title' => 'Technology Stack',
+  'process_title' => 'How We Work',
+  'faq_title' => 'Frequently Asked Questions',
   'tech_category_frontend' => 'Frontend',
   'tech_category_backend' => 'Backend',
-  'tech_category_infrastructure' => 'Infrastruktura',
-  'saas_meta_title' => 'Aplikacje SaaS - Skalowalne platformy subskrypcyjne',
-  'saas_meta_description' => 'Tworzymy profesjonalne platformy SaaS z systemem subskrypcji, rozliczeniami i pełną automatyzacją.',
-  'saas_hero_title' => 'Aplikacje SaaS na Miarę Twoich Potrzeb',
-  'saas_hero_description' => 'Skalowalne platformy subskrypcyjne z pełną automatyzacją płatności, panelem administracyjnym i systemem zarządzania użytkownikami.',
-  'saas_problem_title' => 'Czego Potrzebujesz?',
-  'saas_problem_description' => 'Chcesz stworzyć rentowną platformę SaaS, ale nie wiesz od czego zacząć?',
-  'saas_problems' => 
+  'tech_category_infrastructure' => 'Infrastructure',
+  'saas_meta_title' => 'SaaS Applications - Scalable Subscription Platforms',
+  'saas_meta_description' => 'We build professional SaaS platforms with subscription systems, billing, and full automation.',
+  'saas_hero_title' => 'SaaS Applications Tailored to Your Needs',
+  'saas_hero_description' => 'Scalable subscription platforms with full payment automation, admin panel, and user management system.',
+  'saas_problem_title' => 'What Do You Need?',
+  'saas_problem_description' => 'Want to build a profitable SaaS platform but don\'t know where to start?',
+  'saas_problems' =>
   array (
-    0 => 'Skomplikowana architektura wielotenantowa',
-    1 => 'Integracja systemów płatności i subskrypcji',
-    2 => 'Zarządzanie użytkownikami i uprawnieniami',
-    3 => 'Skalowanie infrastruktury pod rosnący ruch',
+    0 => 'Complex multi-tenant architecture',
+    1 => 'Integration of payment and subscription systems',
+    2 => 'User and permission management',
+    3 => 'Infrastructure scaling for growing traffic',
   ),
-  'saas_solution_title' => 'Nasze Rozwiązanie',
-  'saas_solution_description' => 'Kompleksowa platforma SaaS gotowa do uruchomienia w 8-12 tygodni.',
-  'saas_solutions' => 
+  'saas_solution_title' => 'Our Solution',
+  'saas_solution_description' => 'Complete SaaS platform ready to launch in 8-12 weeks.',
+  'saas_solutions' =>
   array (
-    0 => 'Pełna architektura multi-tenant',
-    1 => 'Integracja Stripe/PayPal + system subskrypcji',
-    2 => 'Panel admina + dashboard użytkownika',
-    3 => 'Auto-scaling i monitoring wydajności',
+    0 => 'Full multi-tenant architecture',
+    1 => 'Stripe/PayPal integration + subscription system',
+    2 => 'Admin panel + user dashboard',
+    3 => 'Auto-scaling and performance monitoring',
   ),
-  'saas_features_title' => 'Co Otrzymujesz',
-  'saas_features_subtitle' => 'Kompletna platforma SaaS ready to launch',
-  'saas_features' => 
+  'saas_features_title' => 'What You Get',
+  'saas_features_subtitle' => 'Complete SaaS platform ready to launch',
+  'saas_features' =>
   array (
-    0 => 
+    0 =>
     array (
-      'title' => 'System Subskrypcji',
-      'description' => 'Płatności cykliczne, trial periods, upgrade/downgrade planów',
+      'title' => 'Subscription System',
+      'description' => 'Recurring payments, trial periods, plan upgrade/downgrade',
     ),
-    1 => 
+    1 =>
     array (
-      'title' => 'Panel Administracyjny',
-      'description' => 'Zarządzanie użytkownikami, subskrypcjami, analityka',
+      'title' => 'Admin Panel',
+      'description' => 'User management, subscriptions, analytics',
     ),
-    2 => 
+    2 =>
     array (
-      'title' => 'API & Integracje',
-      'description' => 'RESTful API, webhooks, integracje z zewnętrznymi serwisami',
+      'title' => 'API & Integrations',
+      'description' => 'RESTful API, webhooks, third-party service integrations',
     ),
-    3 => 
+    3 =>
     array (
       'title' => 'Multi-Tenancy',
-      'description' => 'Izolacja danych, dedykowane domeny, white-labeling',
+      'description' => 'Data isolation, dedicated domains, white-labeling',
     ),
-    4 => 
+    4 =>
     array (
-      'title' => 'Bezpieczeństwo',
-      'description' => '2FA, szyfrowanie danych, GDPR compliance',
+      'title' => 'Security',
+      'description' => '2FA, data encryption, GDPR compliance',
     ),
-    5 => 
+    5 =>
     array (
       'title' => 'Monitoring',
       'description' => 'Real-time analytics, error tracking, uptime monitoring',
     ),
   ),
-  'saas_tech_subtitle' => 'Nowoczesne technologie zapewniające wydajność i skalowalność',
+  'saas_tech_subtitle' => 'Modern technologies ensuring performance and scalability',
   'saas_tech_stack' => 
   array (
     'frontend' => 
@@ -111,126 +111,126 @@ return [
       3 => 'CloudFlare',
     ),
   ),
-  'saas_process_subtitle' => 'Od pomysłu do działającej platformy w 8-12 tygodni',
-  'saas_process_steps' => 
+  'saas_process_subtitle' => 'From idea to working platform in 8-12 weeks',
+  'saas_process_steps' =>
   array (
-    0 => 
+    0 =>
     array (
-      'title' => 'Warsztat Odkrywczy',
-      'description' => 'Definiujemy wymagania, przepływy użytkownika i plany cenowe',
-      'duration' => '1 tydzień',
+      'title' => 'Discovery Workshop',
+      'description' => 'Define requirements, user flows, and pricing plans',
+      'duration' => '1 week',
     ),
-    1 => 
+    1 =>
     array (
-      'title' => 'Projektowanie',
-      'description' => 'UI/UX design, prototypy, architektura systemu',
-      'duration' => '2 tygodnie',
+      'title' => 'Design',
+      'description' => 'UI/UX design, prototypes, system architecture',
+      'duration' => '2 weeks',
     ),
-    2 => 
+    2 =>
     array (
-      'title' => 'Rozwój MVP',
-      'description' => 'Implementacja core features, integracje płatności',
-      'duration' => '4-6 tygodni',
+      'title' => 'MVP Development',
+      'description' => 'Core features implementation, payment integrations',
+      'duration' => '4-6 weeks',
     ),
-    3 => 
+    3 =>
     array (
-      'title' => 'Testy & QA',
-      'description' => 'Testy funkcjonalne, bezpieczeństwa, wydajności',
-      'duration' => '1-2 tygodnie',
+      'title' => 'Testing & QA',
+      'description' => 'Functional, security, and performance testing',
+      'duration' => '1-2 weeks',
     ),
-    4 => 
+    4 =>
     array (
-      'title' => 'Wdrożenie',
-      'description' => 'Deployment, monitoring, onboarding pierwszych klientów',
-      'duration' => '1 tydzień',
+      'title' => 'Deployment',
+      'description' => 'Deployment, monitoring, onboarding first customers',
+      'duration' => '1 week',
     ),
   ),
-  'saas_faq' => 
+  'saas_faq' =>
   array (
-    0 => 
+    0 =>
     array (
-      'question' => 'Ile kosztuje stworzenie platformy SaaS?',
-      'answer' => 'Typowy projekt SaaS kosztuje 80-150k PLN i trwa 8-12 tygodni. Cena zależy od złożoności funkcjonalności i integracji.',
+      'question' => 'How much does it cost to build a SaaS platform?',
+      'answer' => 'A typical SaaS project costs $18-35k and takes 8-12 weeks. Price depends on feature complexity and integrations.',
     ),
-    1 => 
+    1 =>
     array (
-      'question' => 'Czy mogę zmienić funkcjonalności w trakcie projektu?',
-      'answer' => 'Tak, pracujemy w metodyce Agile i możemy dostosowywać zakres w trakcie sprintów. Duże zmiany mogą wpłynąć na timeline i budżet.',
+      'question' => 'Can I change features during the project?',
+      'answer' => 'Yes, we work in Agile methodology and can adjust scope during sprints. Major changes may affect timeline and budget.',
     ),
-    2 => 
+    2 =>
     array (
-      'question' => 'Czy zapewniacie wsparcie po wdrożeniu?',
-      'answer' => 'Tak, oferujemy pakiety wsparcia z gwarantowanym SLA. Możemy też dalej rozwijać platformę o nowe funkcjonalności.',
+      'question' => 'Do you provide support after deployment?',
+      'answer' => 'Yes, we offer support packages with guaranteed SLA. We can also continue developing new features for the platform.',
     ),
-    3 => 
+    3 =>
     array (
-      'question' => 'Jakie integracje płatności są możliwe?',
-      'answer' => 'Standardowo integrujemy Stripe lub PayPal. Możemy też zintegrować Przelewy24, Tpay lub inne bramki płatności.',
+      'question' => 'What payment integrations are possible?',
+      'answer' => 'We integrate Stripe or PayPal as standard. We can also integrate local payment gateways and other providers.',
     ),
-    4 => 
+    4 =>
     array (
-      'question' => 'Czy platforma będzie skalowalna?',
-      'answer' => 'Tak, projektujemy architekturę z myślą o skalowalności. Używamy auto-scalingu, CDN i optymalizacji wydajności.',
+      'question' => 'Will the platform be scalable?',
+      'answer' => 'Yes, we design architecture with scalability in mind. We use auto-scaling, CDN, and performance optimization.',
     ),
   ),
-  'business_meta_title' => 'Aplikacje Biznesowe - CRM, ERP, Systemy B2B',
-  'business_meta_description' => 'Dedykowane systemy wspierające procesy w firmie. CRM, ERP-lite, platformy B2B.',
-  'business_hero_title' => 'Aplikacje Biznesowe na Zamówienie',
-  'business_hero_description' => 'Dedykowane systemy CRM, ERP i B2B platformy dopasowane do procesów Twojej firmy.',
-  'business_problem_title' => 'Typowe Problemy',
-  'business_problem_description' => 'Gotowe rozwiązania nie pasują do Twoich procesów biznesowych?',
-  'business_problems' => 
+  'business_meta_title' => 'Business Applications - CRM, ERP, B2B Systems',
+  'business_meta_description' => 'Dedicated systems supporting company processes. CRM, ERP-lite, B2B platforms.',
+  'business_hero_title' => 'Custom Business Applications',
+  'business_hero_description' => 'Dedicated CRM, ERP, and B2B platforms tailored to your company processes.',
+  'business_problem_title' => 'Common Problems',
+  'business_problem_description' => 'Off-the-shelf solutions don\'t fit your business processes?',
+  'business_problems' =>
   array (
-    0 => 'Gotowe systemy są zbyt sztywne',
-    1 => 'Brak integracji między systemami',
-    2 => 'Ręczne procesy zajmują za dużo czasu',
-    3 => 'Trudności w raportowaniu i analityce',
+    0 => 'Ready-made systems are too rigid',
+    1 => 'Lack of integration between systems',
+    2 => 'Manual processes take too much time',
+    3 => 'Difficulties in reporting and analytics',
   ),
-  'business_solution_title' => 'Dedykowane Rozwiązanie',
-  'business_solution_description' => 'System dopasowany 100% do Twoich potrzeb i procesów.',
-  'business_solutions' => 
+  'business_solution_title' => 'Dedicated Solution',
+  'business_solution_description' => 'System 100% tailored to your needs and processes.',
+  'business_solutions' =>
   array (
-    0 => 'System zbudowany pod Twoje procesy',
-    1 => 'Integracje z istniejącymi narzędziami',
-    2 => 'Automatyzacja powtarzalnych zadań',
-    3 => 'Zaawansowana analityka i raporty',
+    0 => 'System built for your processes',
+    1 => 'Integrations with existing tools',
+    2 => 'Automation of repetitive tasks',
+    3 => 'Advanced analytics and reports',
   ),
-  'business_features_title' => 'Funkcjonalności',
-  'business_features_subtitle' => 'Wszystko czego potrzebujesz w jednym miejscu',
-  'business_features' => 
+  'business_features_title' => 'Features',
+  'business_features_subtitle' => 'Everything you need in one place',
+  'business_features' =>
   array (
-    0 => 
+    0 =>
     array (
       'title' => 'CRM',
-      'description' => 'Zarządzanie kontaktami, pipeline sprzedaży, automatyzacja',
+      'description' => 'Contact management, sales pipeline, automation',
     ),
-    1 => 
+    1 =>
     array (
       'title' => 'ERP Lite',
-      'description' => 'Zarządzanie zasobami, zamówienia, magazyn',
+      'description' => 'Resource management, orders, warehouse',
     ),
-    2 => 
+    2 =>
     array (
       'title' => 'B2B Portal',
-      'description' => 'Portal dla partnerów i kontrahentów',
+      'description' => 'Portal for partners and contractors',
     ),
-    3 => 
+    3 =>
     array (
       'title' => 'Workflow',
-      'description' => 'Automatyzacja procesów biznesowych',
+      'description' => 'Business process automation',
     ),
-    4 => 
+    4 =>
     array (
-      'title' => 'Raportowanie',
-      'description' => 'Dashboardy, raporty, analityka',
+      'title' => 'Reporting',
+      'description' => 'Dashboards, reports, analytics',
     ),
-    5 => 
+    5 =>
     array (
-      'title' => 'Integracje',
-      'description' => 'API, synchronizacja danych, webhooks',
+      'title' => 'Integrations',
+      'description' => 'API, data synchronization, webhooks',
     ),
   ),
-  'business_tech_subtitle' => 'Sprawdzone technologie enterprise',
+  'business_tech_subtitle' => 'Proven enterprise technologies',
   'business_tech_stack' => 
   array (
     'frontend' => 
@@ -255,116 +255,116 @@ return [
       3 => 'CI/CD',
     ),
   ),
-  'business_process_subtitle' => 'Od analizy procesów do wdrożenia systemu',
-  'business_process_steps' => 
+  'business_process_subtitle' => 'From process analysis to system implementation',
+  'business_process_steps' =>
   array (
-    0 => 
+    0 =>
     array (
-      'title' => 'Analiza Procesów',
-      'description' => 'Mapowanie procesów biznesowych i wymagań',
-      'duration' => '1-2 tygodnie',
+      'title' => 'Process Analysis',
+      'description' => 'Business process and requirements mapping',
+      'duration' => '1-2 weeks',
     ),
-    1 => 
+    1 =>
     array (
-      'title' => 'Projektowanie Systemu',
-      'description' => 'Architektura, UI/UX, prototypy',
-      'duration' => '2-3 tygodnie',
+      'title' => 'System Design',
+      'description' => 'Architecture, UI/UX, prototypes',
+      'duration' => '2-3 weeks',
     ),
-    2 => 
+    2 =>
     array (
-      'title' => 'Rozwój',
-      'description' => 'Implementacja modułów, integracje',
-      'duration' => '6-10 tygodni',
+      'title' => 'Development',
+      'description' => 'Module implementation, integrations',
+      'duration' => '6-10 weeks',
     ),
-    3 => 
+    3 =>
     array (
-      'title' => 'Testy & Szkolenia',
-      'description' => 'UAT, szkolenia użytkowników',
-      'duration' => '2 tygodnie',
+      'title' => 'Testing & Training',
+      'description' => 'UAT, user training',
+      'duration' => '2 weeks',
     ),
-    4 => 
-    array (
-      'title' => 'Wdrożenie',
-      'description' => 'Go-live, wsparcie wdrożeniowe',
-      'duration' => '1-2 tygodnie',
-    ),
-  ),
-  'business_faq' => 
-  array (
-    0 => 
-    array (
-      'question' => 'Ile trwa stworzenie systemu CRM?',
-      'answer' => 'Typowy projekt CRM zajmuje 10-14 tygodni. Czas zależy od ilości modułów i integracji.',
-    ),
-    1 => 
-    array (
-      'question' => 'Czy można zintegrować z naszym ERP?',
-      'answer' => 'Tak, integrujemy się z popularnymi systemami ERP poprzez API lub direct database integration.',
-    ),
-    2 => 
-    array (
-      'question' => 'Jak wygląda szkolenie użytkowników?',
-      'answer' => 'Prowadzimy szkolenia online i on-site. Przygotowujemy też dokumentację i video tutorials.',
-    ),
-  ),
-  'mvp_meta_title' => 'MVP dla Startupów - Szybka weryfikacja pomysłu',
-  'mvp_meta_description' => 'Funkcjonalny prototyp gotowy w 4-8 tygodni. Zweryfikuj pomysł bez przepalania budżetu.',
-  'mvp_hero_title' => 'MVP - Zweryfikuj Swój Pomysł',
-  'mvp_hero_description' => 'Działający produkt w 4-8 tygodni. Przetestuj na prawdziwych użytkownikach zanim zainwestujesz w pełny rozwój.',
-  'mvp_problem_title' => 'Wyzwanie Startupów',
-  'mvp_problem_description' => 'Masz pomysł na startup ale nie chcesz ryzykować dużych pieniędzy?',
-  'mvp_problems' => 
-  array (
-    0 => 'Niepewność czy pomysł się sprawdzi',
-    1 => 'Ograniczony budżet na start',
-    2 => 'Presja czasowa - konkurencja nie śpi',
-    3 => 'Potrzeba szybkiej weryfikacji z rynkiem',
-  ),
-  'mvp_solution_title' => 'MVP - Minimum Viable Product',
-  'mvp_solution_description' => 'Najważniejsze funkcje w najkrótszym czasie.',
-  'mvp_solutions' => 
-  array (
-    0 => 'Skupienie na core value proposition',
-    1 => 'Budżet 30-60k PLN zamiast 150k+',
-    2 => 'Launch w 4-8 tygodni zamiast 6 miesięcy',
-    3 => 'Realne dane od użytkowników od razu',
-  ),
-  'mvp_features_title' => 'Co Wchodzi w MVP',
-  'mvp_features_subtitle' => 'Minimum niezbędne do walidacji pomysłu',
-  'mvp_features' => 
-  array (
-    0 => 
-    array (
-      'title' => 'Core Features',
-      'description' => 'Najważniejsze 2-3 funkcjonalności produktu',
-    ),
-    1 => 
-    array (
-      'title' => 'Landing Page',
-      'description' => 'Strona sprzedażowa z formularzem rejestracji',
-    ),
-    2 => 
-    array (
-      'title' => 'Basic Auth',
-      'description' => 'Logowanie, rejestracja, zarządzanie kontem',
-    ),
-    3 => 
-    array (
-      'title' => 'Admin Panel',
-      'description' => 'Podstawowy panel do zarządzania',
-    ),
-    4 => 
-    array (
-      'title' => 'Analytics',
-      'description' => 'Tracking użytkowników i konwersji',
-    ),
-    5 => 
+    4 =>
     array (
       'title' => 'Deployment',
-      'description' => 'Wdrożenie na produkcję z CI/CD',
+      'description' => 'Go-live, deployment support',
+      'duration' => '1-2 weeks',
     ),
   ),
-  'mvp_tech_subtitle' => 'Szybkie technologie proven w startupach',
+  'business_faq' =>
+  array (
+    0 =>
+    array (
+      'question' => 'How long does it take to build a CRM system?',
+      'answer' => 'A typical CRM project takes 10-14 weeks. Time depends on the number of modules and integrations.',
+    ),
+    1 =>
+    array (
+      'question' => 'Can you integrate with our ERP?',
+      'answer' => 'Yes, we integrate with popular ERP systems via API or direct database integration.',
+    ),
+    2 =>
+    array (
+      'question' => 'What does user training look like?',
+      'answer' => 'We conduct online and on-site training. We also prepare documentation and video tutorials.',
+    ),
+  ),
+  'mvp_meta_title' => 'MVP for Startups - Fast Idea Validation',
+  'mvp_meta_description' => 'Functional prototype ready in 4-8 weeks. Validate your idea without burning through budget.',
+  'mvp_hero_title' => 'MVP - Validate Your Idea',
+  'mvp_hero_description' => 'Working product in 4-8 weeks. Test with real users before investing in full development.',
+  'mvp_problem_title' => 'Startup Challenge',
+  'mvp_problem_description' => 'Have a startup idea but don\'t want to risk big money?',
+  'mvp_problems' =>
+  array (
+    0 => 'Uncertainty whether the idea will work',
+    1 => 'Limited startup budget',
+    2 => 'Time pressure - competition doesn\'t sleep',
+    3 => 'Need for quick market validation',
+  ),
+  'mvp_solution_title' => 'MVP - Minimum Viable Product',
+  'mvp_solution_description' => 'Most important features in the shortest time.',
+  'mvp_solutions' =>
+  array (
+    0 => 'Focus on core value proposition',
+    1 => 'Budget $7-14k instead of $35k+',
+    2 => 'Launch in 4-8 weeks instead of 6 months',
+    3 => 'Real user data immediately',
+  ),
+  'mvp_features_title' => 'What\'s Included in MVP',
+  'mvp_features_subtitle' => 'Minimum necessary for idea validation',
+  'mvp_features' =>
+  array (
+    0 =>
+    array (
+      'title' => 'Core Features',
+      'description' => 'The 2-3 most important product features',
+    ),
+    1 =>
+    array (
+      'title' => 'Landing Page',
+      'description' => 'Sales page with registration form',
+    ),
+    2 =>
+    array (
+      'title' => 'Basic Auth',
+      'description' => 'Login, registration, account management',
+    ),
+    3 =>
+    array (
+      'title' => 'Admin Panel',
+      'description' => 'Basic management panel',
+    ),
+    4 =>
+    array (
+      'title' => 'Analytics',
+      'description' => 'User tracking and conversions',
+    ),
+    5 =>
+    array (
+      'title' => 'Deployment',
+      'description' => 'Production deployment with CI/CD',
+    ),
+  ),
+  'mvp_tech_subtitle' => 'Fast technologies proven in startups',
   'mvp_tech_stack' => 
   array (
     'frontend' => 
@@ -386,110 +386,110 @@ return [
       2 => 'GitHub Actions',
     ),
   ),
-  'mvp_process_subtitle' => 'Od pomysłu do działającego produktu w ekspresowym tempie',
-  'mvp_process_steps' => 
+  'mvp_process_subtitle' => 'From idea to working product at express speed',
+  'mvp_process_steps' =>
   array (
-    0 => 
+    0 =>
     array (
       'title' => 'Product Discovery',
-      'description' => 'Definiujemy core features i user flows',
-      'duration' => '3-5 dni',
+      'description' => 'Define core features and user flows',
+      'duration' => '3-5 days',
     ),
-    1 => 
+    1 =>
     array (
       'title' => 'Design Sprint',
-      'description' => 'Wireframes, prototyp klikalny',
-      'duration' => '1 tydzień',
+      'description' => 'Wireframes, clickable prototype',
+      'duration' => '1 week',
     ),
-    2 => 
+    2 =>
     array (
       'title' => 'Development Sprint',
-      'description' => 'Implementacja MVP',
-      'duration' => '2-4 tygodnie',
+      'description' => 'MVP implementation',
+      'duration' => '2-4 weeks',
     ),
-    3 => 
+    3 =>
     array (
       'title' => 'Testing & Launch',
-      'description' => 'QA, deployment, pierwsi użytkownicy',
-      'duration' => '1 tydzień',
+      'description' => 'QA, deployment, first users',
+      'duration' => '1 week',
     ),
   ),
-  'mvp_faq' => 
+  'mvp_faq' =>
   array (
-    0 => 
+    0 =>
     array (
-      'question' => 'Czym różni się MVP od pełnego produktu?',
-      'answer' => 'MVP ma tylko najważniejsze funkcje potrzebne do weryfikacji pomysłu. To 20% funkcjonalności która da 80% wartości.',
+      'question' => 'How is MVP different from a full product?',
+      'answer' => 'MVP has only the most important features needed to validate the idea. It\'s 20% of functionality that gives 80% of value.',
     ),
-    1 => 
+    1 =>
     array (
-      'question' => 'Co będzie po MVP?',
-      'answer' => 'Po zebraniu feedback możemy rozwijać produkt dalej, dodając nowe funkcje w kolejnych iteracjach.',
+      'question' => 'What happens after MVP?',
+      'answer' => 'After gathering feedback, we can develop the product further, adding new features in subsequent iterations.',
     ),
-    2 => 
+    2 =>
     array (
-      'question' => 'Czy mogę pozyskać inwestora z MVP?',
-      'answer' => 'Tak! Działający MVP + pierwsi użytkownicy to dobra podstawa do rozmów z inwestorami.',
+      'question' => 'Can I attract investors with an MVP?',
+      'answer' => 'Yes! Working MVP + first users is a good basis for investor talks.',
     ),
   ),
-  'ai_meta_title' => 'Rozwiązania AI - Chatboty, ML, Automatyzacja',
-  'ai_meta_description' => 'Implementujemy AI w Twoim biznesie. Chatboty, systemy rekomendacji, analiza predykcyjna.',
-  'ai_hero_title' => 'Inteligentne Rozwiązania AI',
-  'ai_hero_description' => 'Wykorzystaj moc sztucznej inteligencji w swojej firmie. Od chatbotów po zaawansowaną analitykę predykcyjną.',
-  'ai_problem_title' => 'Potencjał AI',
-  'ai_problem_description' => 'AI może zautomatyzować procesy i poprawić doświadczenia klientów',
-  'ai_problems' => 
+  'ai_meta_title' => 'AI Solutions - Chatbots, ML, Automation',
+  'ai_meta_description' => 'We implement AI in your business. Chatbots, recommendation systems, predictive analytics.',
+  'ai_hero_title' => 'Intelligent AI Solutions',
+  'ai_hero_description' => 'Harness the power of artificial intelligence in your company. From chatbots to advanced predictive analytics.',
+  'ai_problem_title' => 'AI Potential',
+  'ai_problem_description' => 'AI can automate processes and improve customer experiences',
+  'ai_problems' =>
   array (
-    0 => 'Obsługa klienta pochłania zasoby',
-    1 => 'Ręczna analiza danych zajmuje dużo czasu',
-    2 => 'Brak personalizacji dla użytkowników',
-    3 => 'Trudności w przewidywaniu trendów',
+    0 => 'Customer support consumes resources',
+    1 => 'Manual data analysis takes too much time',
+    2 => 'Lack of personalization for users',
+    3 => 'Difficulties in predicting trends',
   ),
-  'ai_solution_title' => 'AI w Praktyce',
-  'ai_solution_description' => 'Praktyczne zastosowania AI w Twoim biznesie',
-  'ai_solutions' => 
+  'ai_solution_title' => 'AI in Practice',
+  'ai_solution_description' => 'Practical AI applications in your business',
+  'ai_solutions' =>
   array (
-    0 => 'Chatboty obsługujące 70% zapytań',
-    1 => 'Automatyczna analiza danych i raportowanie',
-    2 => 'Personalizowane rekomendacje produktów',
-    3 => 'Predykcja zachowań i trendów',
+    0 => 'Chatbots handling 70% of inquiries',
+    1 => 'Automatic data analysis and reporting',
+    2 => 'Personalized product recommendations',
+    3 => 'Behavior and trend prediction',
   ),
-  'ai_features_title' => 'Usługi AI',
-  'ai_features_subtitle' => 'Od gotowych rozwiązań po custom ML models',
-  'ai_features' => 
+  'ai_features_title' => 'AI Services',
+  'ai_features_subtitle' => 'From ready-made solutions to custom ML models',
+  'ai_features' =>
   array (
-    0 => 
+    0 =>
     array (
-      'title' => 'Chatboty',
-      'description' => 'Inteligentne boty z NLP, integracja GPT-4',
+      'title' => 'Chatbots',
+      'description' => 'Intelligent bots with NLP, GPT-4 integration',
     ),
-    1 => 
+    1 =>
     array (
-      'title' => 'Systemy Rekomendacji',
-      'description' => 'Personalizacja contentu i produktów',
+      'title' => 'Recommendation Systems',
+      'description' => 'Content and product personalization',
     ),
-    2 => 
+    2 =>
     array (
-      'title' => 'Analiza Predykcyjna',
+      'title' => 'Predictive Analytics',
       'description' => 'Forecasting, churn prediction, demand planning',
     ),
-    3 => 
+    3 =>
     array (
       'title' => 'Computer Vision',
-      'description' => 'Rozpoznawanie obrazów, OCR, moderacja treści',
+      'description' => 'Image recognition, OCR, content moderation',
     ),
-    4 => 
+    4 =>
     array (
       'title' => 'NLP',
-      'description' => 'Analiza sentymentu, kategoryzacja, summarization',
+      'description' => 'Sentiment analysis, categorization, summarization',
     ),
-    5 => 
+    5 =>
     array (
       'title' => 'RAG Systems',
-      'description' => 'Chatboty z dostępem do Twojej bazy wiedzy',
+      'description' => 'Chatbots with access to your knowledge base',
     ),
   ),
-  'ai_tech_subtitle' => 'Najnowsze technologie AI i ML',
+  'ai_tech_subtitle' => 'Latest AI and ML technologies',
   'ai_tech_stack' => 
   array (
     'frontend' => 
@@ -512,110 +512,110 @@ return [
       2 => 'Docker',
     ),
   ),
-  'ai_process_subtitle' => 'Od konceptu do wdrożenia AI',
-  'ai_process_steps' => 
+  'ai_process_subtitle' => 'From concept to AI deployment',
+  'ai_process_steps' =>
   array (
-    0 => 
+    0 =>
     array (
       'title' => 'AI Assessment',
-      'description' => 'Analiza przypadków użycia AI w firmie',
-      'duration' => '1 tydzień',
+      'description' => 'Analysis of AI use cases in the company',
+      'duration' => '1 week',
     ),
-    1 => 
+    1 =>
     array (
       'title' => 'POC/Prototype',
-      'description' => 'Proof of Concept na realnych danych',
-      'duration' => '2-3 tygodnie',
+      'description' => 'Proof of Concept with real data',
+      'duration' => '2-3 weeks',
     ),
-    2 => 
+    2 =>
     array (
       'title' => 'Development',
-      'description' => 'Implementacja, training modeli',
-      'duration' => '4-6 tygodni',
+      'description' => 'Implementation, model training',
+      'duration' => '4-6 weeks',
     ),
-    3 => 
+    3 =>
     array (
       'title' => 'Integration & Launch',
-      'description' => 'Integracja z systemami, deployment',
-      'duration' => '2 tygodnie',
+      'description' => 'System integration, deployment',
+      'duration' => '2 weeks',
     ),
   ),
-  'ai_faq' => 
+  'ai_faq' =>
   array (
-    0 => 
+    0 =>
     array (
-      'question' => 'Czy AI jest dla każdego biznesu?',
-      'answer' => 'Nie każdy case wymaga AI. Robimy assessment i rekomendujemy tylko jeśli AI da realną wartość biznesową.',
+      'question' => 'Is AI for every business?',
+      'answer' => 'Not every case requires AI. We do an assessment and recommend only if AI gives real business value.',
     ),
-    1 => 
+    1 =>
     array (
-      'question' => 'Ile kosztuje implementacja chatbota?',
-      'answer' => 'Prosty chatbot z GPT-4 to 20-30k PLN. Custom ML model to 50-80k PLN. Zależy od złożoności.',
+      'question' => 'How much does chatbot implementation cost?',
+      'answer' => 'Simple GPT-4 chatbot costs $5-7k. Custom ML model costs $12-18k. Depends on complexity.',
     ),
-    2 => 
+    2 =>
     array (
-      'question' => 'Czy trzeba mieć dużo danych?',
-      'answer' => 'Zależy od przypadku. Do chatbotów wystarczą przykładowe Q&A. Do ML trzeba więcej danych lub możemy użyć transfer learning.',
+      'question' => 'Do you need a lot of data?',
+      'answer' => 'Depends on the case. For chatbots, sample Q&A is enough. For ML we need more data or can use transfer learning.',
     ),
   ),
-  'integration_meta_title' => 'Integracje i Automatyzacje - API, Workflow',
-  'integration_meta_description' => 'Łączymy systemy, automatyzujemy procesy, budujemy API.',
-  'integration_hero_title' => 'Integracje Systemów i Automatyzacje',
-  'integration_hero_description' => 'Połącz swoje narzędzia w jeden spójny ekosystem. Automatyzuj powtarzalne procesy.',
-  'integration_problem_title' => 'Problem Silosów',
-  'integration_problem_description' => 'Dane rozrzucone po wielu systemach to problem',
-  'integration_problems' => 
+  'integration_meta_title' => 'Integrations & Automations - API, Workflow',
+  'integration_meta_description' => 'We connect systems, automate processes, build APIs.',
+  'integration_hero_title' => 'System Integrations and Automations',
+  'integration_hero_description' => 'Connect your tools into one coherent ecosystem. Automate repetitive processes.',
+  'integration_problem_title' => 'Silo Problem',
+  'integration_problem_description' => 'Data scattered across multiple systems is a problem',
+  'integration_problems' =>
   array (
-    0 => 'Ręczne przeklejanie danych między systemami',
-    1 => 'Brak spójności danych',
-    2 => 'Dublowanie pracy',
-    3 => 'Trudności w uzyskaniu pełnego obrazu',
+    0 => 'Manual copying of data between systems',
+    1 => 'Lack of data consistency',
+    2 => 'Work duplication',
+    3 => 'Difficulties in getting the full picture',
   ),
-  'integration_solution_title' => 'Integracje i Automatyzacja',
-  'integration_solution_description' => 'Wszystkie systemy połączone i zsynchronizowane',
-  'integration_solutions' => 
+  'integration_solution_title' => 'Integrations and Automation',
+  'integration_solution_description' => 'All systems connected and synchronized',
+  'integration_solutions' =>
   array (
-    0 => 'Automatyczna synchronizacja danych',
+    0 => 'Automatic data synchronization',
     1 => 'Single source of truth',
-    2 => 'Eliminacja ręcznej pracy',
-    3 => 'Pełna widoczność procesów',
+    2 => 'Elimination of manual work',
+    3 => 'Full process visibility',
   ),
-  'integration_features_title' => 'Rodzaje Integracji',
-  'integration_features_subtitle' => 'Od prostych do zaawansowanych',
-  'integration_features' => 
+  'integration_features_title' => 'Integration Types',
+  'integration_features_subtitle' => 'From simple to advanced',
+  'integration_features' =>
   array (
-    0 => 
+    0 =>
     array (
       'title' => 'API Integrations',
       'description' => 'REST, GraphQL, webhooks',
     ),
-    1 => 
+    1 =>
     array (
       'title' => 'Database Sync',
       'description' => 'ETL, real-time sync, data warehouse',
     ),
-    2 => 
+    2 =>
     array (
       'title' => 'File Processing',
       'description' => 'CSV, XML, JSON imports/exports',
     ),
-    3 => 
+    3 =>
     array (
       'title' => 'iPaaS',
       'description' => 'Zapier, Make, n8n workflows',
     ),
-    4 => 
+    4 =>
     array (
       'title' => 'Custom Middleware',
-      'description' => 'Dedykowane middleware łączące systemy',
+      'description' => 'Dedicated middleware connecting systems',
     ),
-    5 => 
+    5 =>
     array (
       'title' => 'Legacy Systems',
-      'description' => 'Modernizacja i integracja legacy',
+      'description' => 'Modernization and legacy integration',
     ),
   ),
-  'integration_tech_subtitle' => 'Narzędzia integracyjne',
+  'integration_tech_subtitle' => 'Integration tools',
   'integration_tech_stack' => 
   array (
     'frontend' => 
@@ -639,110 +639,110 @@ return [
       3 => 'Webhooks',
     ),
   ),
-  'integration_process_subtitle' => 'Od mapowania do wdrożenia',
-  'integration_process_steps' => 
+  'integration_process_subtitle' => 'From mapping to deployment',
+  'integration_process_steps' =>
   array (
-    0 => 
+    0 =>
     array (
       'title' => 'Integration Mapping',
-      'description' => 'Mapowanie systemów i przepływów danych',
-      'duration' => '1 tydzień',
+      'description' => 'System and data flow mapping',
+      'duration' => '1 week',
     ),
-    1 => 
+    1 =>
     array (
       'title' => 'Architecture Design',
-      'description' => 'Projektowanie architektury integracyjnej',
-      'duration' => '1 tydzień',
+      'description' => 'Integration architecture design',
+      'duration' => '1 week',
     ),
-    2 => 
+    2 =>
     array (
       'title' => 'Development',
-      'description' => 'Implementacja connectorów i middleware',
-      'duration' => '3-6 tygodni',
+      'description' => 'Connector and middleware implementation',
+      'duration' => '3-6 weeks',
     ),
-    3 => 
+    3 =>
     array (
       'title' => 'Testing & Deploy',
-      'description' => 'Testy integracyjne, wdrożenie',
-      'duration' => '1-2 tygodnie',
+      'description' => 'Integration testing, deployment',
+      'duration' => '1-2 weeks',
     ),
   ),
-  'integration_faq' => 
+  'integration_faq' =>
   array (
-    0 => 
+    0 =>
     array (
-      'question' => 'Czy każdy system można zintegrować?',
-      'answer' => 'Prawie każdy. Jeśli ma API lub dostęp do bazy danych - tak. Legacy systems też możemy zintegrować.',
+      'question' => 'Can every system be integrated?',
+      'answer' => 'Almost any. If it has an API or database access - yes. We can also integrate legacy systems.',
     ),
-    1 => 
+    1 =>
     array (
-      'question' => 'Ile czasu zajmuje integracja?',
-      'answer' => 'Prosta integracja to 1-2 tygodnie. Złożone projekty z wieloma systemami to 6-8 tygodni.',
+      'question' => 'How long does integration take?',
+      'answer' => 'Simple integration takes 1-2 weeks. Complex projects with multiple systems take 6-8 weeks.',
     ),
-    2 => 
+    2 =>
     array (
-      'question' => 'Co jeśli system nie ma API?',
-      'answer' => 'Możemy zbudować API wrapper, scraping, lub integrować bezpośrednio z bazą danych.',
+      'question' => 'What if the system doesn\'t have an API?',
+      'answer' => 'We can build an API wrapper, scraping, or integrate directly with the database.',
     ),
   ),
-  'support_meta_title' => 'Wsparcie i Rozwój - SLA, Maintenance, Updates',
-  'support_meta_description' => 'Pakiety wsparcia technicznego z gwarantowanym SLA i ciągły rozwój aplikacji.',
-  'support_hero_title' => 'Wsparcie Techniczne i Rozwój',
-  'support_hero_description' => 'Zapewniamy stabilne działanie systemów i rozwijamy funkcjonalności według potrzeb biznesu.',
-  'support_problem_title' => 'Po Wdrożeniu',
-  'support_problem_description' => 'Aplikacja to nie projekt "set and forget"',
-  'support_problems' => 
+  'support_meta_title' => 'Support & Development - SLA, Maintenance, Updates',
+  'support_meta_description' => 'Technical support packages with guaranteed SLA and continuous application development.',
+  'support_hero_title' => 'Technical Support and Development',
+  'support_hero_description' => 'We ensure stable system operation and develop features according to business needs.',
+  'support_problem_title' => 'After Deployment',
+  'support_problem_description' => 'Application is not a "set and forget" project',
+  'support_problems' =>
   array (
-    0 => 'Awarie w najmniej oczekiwanych momentach',
-    1 => 'Brak reakcji dostawcy na problemy',
-    2 => 'Przestarzałe biblioteki i security issues',
-    3 => 'Potrzeba nowych funkcji zgodnie z biznesem',
+    0 => 'Failures at the least expected moments',
+    1 => 'No vendor response to problems',
+    2 => 'Outdated libraries and security issues',
+    3 => 'Need for new features aligned with business',
   ),
-  'support_solution_title' => 'Pakiety Wsparcia',
-  'support_solution_description' => 'Profesjonalne wsparcie z gwarantowanym SLA',
-  'support_solutions' => 
+  'support_solution_title' => 'Support Packages',
+  'support_solution_description' => 'Professional support with guaranteed SLA',
+  'support_solutions' =>
   array (
-    0 => 'Monitoring 24/7 i alerting',
-    1 => 'Reakcja w ciągu godziny przy P1',
-    2 => 'Regularne updates i security patches',
-    3 => 'Development pool na nowe features',
+    0 => '24/7 monitoring and alerting',
+    1 => 'Response within an hour for P1 issues',
+    2 => 'Regular updates and security patches',
+    3 => 'Development pool for new features',
   ),
-  'support_features_title' => 'Co Obejmuje Wsparcie',
-  'support_features_subtitle' => 'Kompleksowa opieka nad aplikacją',
-  'support_features' => 
+  'support_features_title' => 'What Support Includes',
+  'support_features_subtitle' => 'Comprehensive application care',
+  'support_features' =>
   array (
-    0 => 
+    0 =>
     array (
       'title' => 'Monitoring',
       'description' => 'Uptime monitoring, performance tracking, error alerting',
     ),
-    1 => 
+    1 =>
     array (
       'title' => 'Bug Fixing',
-      'description' => 'Naprawy błędów z gwarantowanym SLA',
+      'description' => 'Bug fixes with guaranteed SLA',
     ),
-    2 => 
+    2 =>
     array (
       'title' => 'Security Updates',
-      'description' => 'Regularne patche bezpieczeństwa',
+      'description' => 'Regular security patches',
     ),
-    3 => 
+    3 =>
     array (
       'title' => 'Performance',
-      'description' => 'Optymalizacja, caching, database tuning',
+      'description' => 'Optimization, caching, database tuning',
     ),
-    4 => 
+    4 =>
     array (
       'title' => 'Backups',
       'description' => 'Automated backups, disaster recovery',
     ),
-    5 => 
+    5 =>
     array (
       'title' => 'Development',
-      'description' => 'Pool godzin na nowe funkcjonalności',
+      'description' => 'Hour pool for new features',
     ),
   ),
-  'support_tech_subtitle' => 'Narzędzia monitoringu i supportu',
+  'support_tech_subtitle' => 'Monitoring and support tools',
   'support_tech_stack' => 
   array (
     'frontend' => 
@@ -763,50 +763,50 @@ return [
       2 => 'Grafana',
     ),
   ),
-  'support_process_subtitle' => 'Jak działamy',
-  'support_process_steps' => 
+  'support_process_subtitle' => 'How we work',
+  'support_process_steps' =>
   array (
-    0 => 
+    0 =>
     array (
       'title' => 'Onboarding',
-      'description' => 'Przejmujemy system, setup monitoringu',
-      'duration' => '1 tydzień',
+      'description' => 'System takeover, monitoring setup',
+      'duration' => '1 week',
     ),
-    1 => 
+    1 =>
     array (
       'title' => 'Continuous Monitoring',
-      'description' => 'Monitoring 24/7, alerting, proactive fixes',
+      'description' => '24/7 monitoring, alerting, proactive fixes',
       'duration' => 'Ongoing',
     ),
-    2 => 
+    2 =>
     array (
       'title' => 'Monthly Reviews',
       'description' => 'Status reports, performance reviews',
-      'duration' => 'Miesięcznie',
+      'duration' => 'Monthly',
     ),
-    3 => 
+    3 =>
     array (
       'title' => 'Development Sprints',
-      'description' => 'Nowe features według roadmapy',
-      'duration' => 'Co 2 tygodnie',
+      'description' => 'New features according to roadmap',
+      'duration' => 'Every 2 weeks',
     ),
   ),
-  'support_faq' => 
+  'support_faq' =>
   array (
-    0 => 
+    0 =>
     array (
-      'question' => 'Jakie są pakiety wsparcia?',
-      'answer' => 'Basic (8h/msc) od 3k PLN, Standard (20h/msc) od 7k PLN, Premium (40h/msc) od 12k PLN. SLA od 4h do 1h.',
+      'question' => 'What are the support packages?',
+      'answer' => 'Basic (8h/mo) from $700, Standard (20h/mo) from $1.6k, Premium (40h/mo) from $2.8k. SLA from 4h to 1h.',
     ),
-    1 => 
+    1 =>
     array (
-      'question' => 'Co jeśli nie wykorzystam godzin?',
-      'answer' => 'Niewykorzystane godziny przechodzą na kolejny miesiąc (max 2 miesiące).',
+      'question' => 'What if I don\'t use all hours?',
+      'answer' => 'Unused hours roll over to the next month (max 2 months).',
     ),
-    2 => 
+    2 =>
     array (
-      'question' => 'Czy można zmienić pakiet?',
-      'answer' => 'Tak, można upgrade/downgrade z miesięcznym wyprzedzeniem.',
+      'question' => 'Can I change the package?',
+      'answer' => 'Yes, you can upgrade/downgrade with one month notice.',
     ),
   ),
 ];
