@@ -13,19 +13,16 @@
 
             <!-- Desktop Navigation -->
             <div class="hidden lg:flex items-center space-x-8">
-                <a href="#services" class="text-sm font-medium text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
+                <a href="{{ url('/' . app()->getLocale()) }}#services" class="text-sm font-medium text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
                     {{ __('nav.services') }}
                 </a>
-                <a href="#portfolio" class="text-sm font-medium text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
+                <a href="{{ url('/' . app()->getLocale()) }}#portfolio" class="text-sm font-medium text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
                     {{ __('nav.portfolio') }}
                 </a>
-                <a href="#process" class="text-sm font-medium text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
+                <a href="{{ url('/' . app()->getLocale()) }}#process" class="text-sm font-medium text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
                     {{ __('nav.process') }}
                 </a>
-                <a href="#about" class="text-sm font-medium text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
-                    {{ __('nav.about') }}
-                </a>
-                <a href="#contact" class="text-sm font-medium text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
+                <a href="{{ route('contact', ['locale' => app()->getLocale()]) }}" class="text-sm font-medium text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
                     {{ __('nav.contact') }}
                 </a>
             </div>
@@ -53,7 +50,7 @@
                 </button>
 
                 <!-- CTA Button -->
-                <a href="#contact" class="hidden lg:inline-flex items-center px-6 py-2.5 bg-gradient-hero text-white text-sm font-semibold rounded-lg hover:shadow-lg hover:scale-105 transition-all duration-200">
+                <a href="{{ route('contact', ['locale' => app()->getLocale()]) }}" class="hidden lg:inline-flex items-center px-6 py-2.5 bg-gradient-hero text-white text-sm font-semibold rounded-lg hover:shadow-lg hover:scale-105 transition-all duration-200">
                     {{ __('nav.cta') }}
                     <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/>
