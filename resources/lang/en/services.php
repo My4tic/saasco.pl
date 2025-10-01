@@ -1,4 +1,6 @@
-<?php\n\nreturn array (
+<?php
+
+return [
   'title' => 'Nasze Usługi',
   'subtitle' => 'Kompleksowe rozwiązania technologiczne dostosowane do potrzeb Twojego biznesu',
   'saas_title' => 'Aplikacje SaaS',
@@ -807,4 +809,4 @@
       'answer' => 'Tak, można upgrade/downgrade z miesięcznym wyprzedzeniem.',
     ),
   ),
-);\n
+];

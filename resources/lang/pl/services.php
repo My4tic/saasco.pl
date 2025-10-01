@@ -1,4 +1,6 @@
-<?php\n\nreturn [
+<?php
+
+return [
   'title' => 'Nasze Usługi',
   'subtitle' => 'Kompleksowe rozwiązania technologiczne dostosowane do potrzeb Twojego biznesu',
   'saas_title' => 'Aplikacje SaaS',
@@ -39,7 +41,7 @@
     1 => 'Integracja systemów płatności i subskrypcji',
     2 => 'Zarządzanie użytkownikami i uprawnieniami',
     3 => 'Skalowanie infrastruktury pod rosnący ruch',
-];,
+  ],
   'saas_solution_title' => 'Nasze Rozwiązanie',
   'saas_solution_description' => 'Kompleksowa platforma SaaS gotowa do uruchomienia w 8-12 tygodni.',
   'saas_solutions' => 
@@ -48,7 +50,7 @@
     1 => 'Integracja Stripe/PayPal + system subskrypcji',
     2 => 'Panel admina + dashboard użytkownika',
     3 => 'Auto-scaling i monitoring wydajności',
-];,
+  ],
   'saas_features_title' => 'Co Otrzymujesz',
   'saas_features_subtitle' => 'Kompletna platforma SaaS ready to launch',
   'saas_features' => 
@@ -83,7 +85,7 @@
       'title' => 'Monitoring',
       'description' => 'Real-time analytics, error tracking, uptime monitoring',
     ],
-];,
+  ],
   'saas_tech_subtitle' => 'Nowoczesne technologie zapewniające wydajność i skalowalność',
   'saas_tech_stack' => 
   [
@@ -108,7 +110,7 @@
       2 => 'CI/CD',
       3 => 'CloudFlare',
     ],
-];,
+  ],
   'saas_process_subtitle' => 'Od pomysłu do działającej platformy w 8-12 tygodni',
   'saas_process_steps' => 
   [
@@ -142,7 +144,7 @@
       'description' => 'Deployment, monitoring, onboarding pierwszych klientów',
       'duration' => '1 tydzień',
     ],
-];,
+  ],
   'saas_faq' => 
   [
     0 => 
@@ -170,7 +172,7 @@
       'question' => 'Czy platforma będzie skalowalna?',
       'answer' => 'Tak, projektujemy architekturę z myślą o skalowalności. Używamy auto-scalingu, CDN i optymalizacji wydajności.',
     ],
-];,
+  ],
   'business_meta_title' => 'Aplikacje Biznesowe - CRM, ERP, Systemy B2B',
   'business_meta_description' => 'Dedykowane systemy wspierające procesy w firmie. CRM, ERP-lite, platformy B2B.',
   'business_hero_title' => 'Aplikacje Biznesowe na Zamówienie',
@@ -183,7 +185,7 @@
     1 => 'Brak integracji między systemami',
     2 => 'Ręczne procesy zajmują za dużo czasu',
     3 => 'Trudności w raportowaniu i analityce',
-];,
+  ],
   'business_solution_title' => 'Dedykowane Rozwiązanie',
   'business_solution_description' => 'System dopasowany 100% do Twoich potrzeb i procesów.',
   'business_solutions' => 
@@ -192,7 +194,7 @@
     1 => 'Integracje z istniejącymi narzędziami',
     2 => 'Automatyzacja powtarzalnych zadań',
     3 => 'Zaawansowana analityka i raporty',
-];,
+  ],
   'business_features_title' => 'Funkcjonalności',
   'business_features_subtitle' => 'Wszystko czego potrzebujesz w jednym miejscu',
   'business_features' => 
@@ -227,7 +229,7 @@
       'title' => 'Integracje',
       'description' => 'API, synchronizacja danych, webhooks',
     ],
-];,
+  ],
   'business_tech_subtitle' => 'Sprawdzone technologie enterprise',
   'business_tech_stack' => 
   [
@@ -252,7 +254,7 @@
       2 => 'Nginx',
       3 => 'CI/CD',
     ],
-];,
+  ],
   'business_process_subtitle' => 'Od analizy procesów do wdrożenia systemu',
   'business_process_steps' => 
   [
@@ -286,7 +288,7 @@
       'description' => 'Go-live, wsparcie wdrożeniowe',
       'duration' => '1-2 tygodnie',
     ],
-];,
+  ],
   'business_faq' => 
   [
     0 => 
@@ -304,7 +306,7 @@
       'question' => 'Jak wygląda szkolenie użytkowników?',
       'answer' => 'Prowadzimy szkolenia online i on-site. Przygotowujemy też dokumentację i video tutorials.',
     ],
-];,
+  ],
   'mvp_meta_title' => 'MVP dla Startupów - Szybka weryfikacja pomysłu',
   'mvp_meta_description' => 'Funkcjonalny prototyp gotowy w 4-8 tygodni. Zweryfikuj pomysł bez przepalania budżetu.',
   'mvp_hero_title' => 'MVP - Zweryfikuj Swój Pomysł',
@@ -317,7 +319,7 @@
     1 => 'Ograniczony budżet na start',
     2 => 'Presja czasowa - konkurencja nie śpi',
     3 => 'Potrzeba szybkiej weryfikacji z rynkiem',
-];,
+  ],
   'mvp_solution_title' => 'MVP - Minimum Viable Product',
   'mvp_solution_description' => 'Najważniejsze funkcje w najkrótszym czasie.',
   'mvp_solutions' => 
@@ -326,7 +328,7 @@
     1 => 'Budżet 30-60k PLN zamiast 150k+',
     2 => 'Launch w 4-8 tygodni zamiast 6 miesięcy',
     3 => 'Realne dane od użytkowników od razu',
-];,
+  ],
   'mvp_features_title' => 'Co Wchodzi w MVP',
   'mvp_features_subtitle' => 'Minimum niezbędne do walidacji pomysłu',
   'mvp_features' => 
@@ -361,7 +363,7 @@
       'title' => 'Deployment',
       'description' => 'Wdrożenie na produkcję z CI/CD',
     ],
-];,
+  ],
   'mvp_tech_subtitle' => 'Szybkie technologie proven w startupach',
   'mvp_tech_stack' => 
   [
@@ -383,7 +385,7 @@
       1 => 'Railway',
       2 => 'GitHub Actions',
     ],
-];,
+  ],
   'mvp_process_subtitle' => 'Od pomysłu do działającego produktu w ekspresowym tempie',
   'mvp_process_steps' => 
   [
@@ -411,7 +413,7 @@
       'description' => 'QA, deployment, pierwsi użytkownicy',
       'duration' => '1 tydzień',
     ],
-];,
+  ],
   'mvp_faq' => 
   [
     0 => 
@@ -429,7 +431,7 @@
       'question' => 'Czy mogę pozyskać inwestora z MVP?',
       'answer' => 'Tak! Działający MVP + pierwsi użytkownicy to dobra podstawa do rozmów z inwestorami.',
     ],
-];,
+  ],
   'ai_meta_title' => 'Rozwiązania AI - Chatboty, ML, Automatyzacja',
   'ai_meta_description' => 'Implementujemy AI w Twoim biznesie. Chatboty, systemy rekomendacji, analiza predykcyjna.',
   'ai_hero_title' => 'Inteligentne Rozwiązania AI',
@@ -442,7 +444,7 @@
     1 => 'Ręczna analiza danych zajmuje dużo czasu',
     2 => 'Brak personalizacji dla użytkowników',
     3 => 'Trudności w przewidywaniu trendów',
-];,
+  ],
   'ai_solution_title' => 'AI w Praktyce',
   'ai_solution_description' => 'Praktyczne zastosowania AI w Twoim biznesie',
   'ai_solutions' => 
@@ -451,7 +453,7 @@
     1 => 'Automatyczna analiza danych i raportowanie',
     2 => 'Personalizowane rekomendacje produktów',
     3 => 'Predykcja zachowań i trendów',
-];,
+  ],
   'ai_features_title' => 'Usługi AI',
   'ai_features_subtitle' => 'Od gotowych rozwiązań po custom ML models',
   'ai_features' => 
@@ -486,7 +488,7 @@
       'title' => 'RAG Systems',
       'description' => 'Chatboty z dostępem do Twojej bazy wiedzy',
     ],
-];,
+  ],
   'ai_tech_subtitle' => 'Najnowsze technologie AI i ML',
   'ai_tech_stack' => 
   [
@@ -509,7 +511,7 @@
       1 => 'Vector DB',
       2 => 'Docker',
     ],
-];,
+  ],
   'ai_process_subtitle' => 'Od konceptu do wdrożenia AI',
   'ai_process_steps' => 
   [
@@ -537,7 +539,7 @@
       'description' => 'Integracja z systemami, deployment',
       'duration' => '2 tygodnie',
     ],
-];,
+  ],
   'ai_faq' => 
   [
     0 => 
@@ -555,7 +557,7 @@
       'question' => 'Czy trzeba mieć dużo danych?',
       'answer' => 'Zależy od przypadku. Do chatbotów wystarczą przykładowe Q&A. Do ML trzeba więcej danych lub możemy użyć transfer learning.',
     ],
-];,
+  ],
   'integration_meta_title' => 'Integracje i Automatyzacje - API, Workflow',
   'integration_meta_description' => 'Łączymy systemy, automatyzujemy procesy, budujemy API.',
   'integration_hero_title' => 'Integracje Systemów i Automatyzacje',
@@ -568,7 +570,7 @@
     1 => 'Brak spójności danych',
     2 => 'Dublowanie pracy',
     3 => 'Trudności w uzyskaniu pełnego obrazu',
-];,
+  ],
   'integration_solution_title' => 'Integracje i Automatyzacja',
   'integration_solution_description' => 'Wszystkie systemy połączone i zsynchronizowane',
   'integration_solutions' => 
@@ -577,7 +579,7 @@
     1 => 'Single source of truth',
     2 => 'Eliminacja ręcznej pracy',
     3 => 'Pełna widoczność procesów',
-];,
+  ],
   'integration_features_title' => 'Rodzaje Integracji',
   'integration_features_subtitle' => 'Od prostych do zaawansowanych',
   'integration_features' => 
@@ -612,7 +614,7 @@
       'title' => 'Legacy Systems',
       'description' => 'Modernizacja i integracja legacy',
     ],
-];,
+  ],
   'integration_tech_subtitle' => 'Narzędzia integracyjne',
   'integration_tech_stack' => 
   [
@@ -636,7 +638,7 @@
       2 => 'AWS Lambda',
       3 => 'Webhooks',
     ],
-];,
+  ],
   'integration_process_subtitle' => 'Od mapowania do wdrożenia',
   'integration_process_steps' => 
   [
@@ -664,7 +666,7 @@
       'description' => 'Testy integracyjne, wdrożenie',
       'duration' => '1-2 tygodnie',
     ],
-];,
+  ],
   'integration_faq' => 
   [
     0 => 
@@ -682,7 +684,7 @@
       'question' => 'Co jeśli system nie ma API?',
       'answer' => 'Możemy zbudować API wrapper, scraping, lub integrować bezpośrednio z bazą danych.',
     ],
-];,
+  ],
   'support_meta_title' => 'Wsparcie i Rozwój - SLA, Maintenance, Updates',
   'support_meta_description' => 'Pakiety wsparcia technicznego z gwarantowanym SLA i ciągły rozwój aplikacji.',
   'support_hero_title' => 'Wsparcie Techniczne i Rozwój',
@@ -695,7 +697,7 @@
     1 => 'Brak reakcji dostawcy na problemy',
     2 => 'Przestarzałe biblioteki i security issues',
     3 => 'Potrzeba nowych funkcji zgodnie z biznesem',
-];,
+  ],
   'support_solution_title' => 'Pakiety Wsparcia',
   'support_solution_description' => 'Profesjonalne wsparcie z gwarantowanym SLA',
   'support_solutions' => 
@@ -704,7 +706,7 @@
     1 => 'Reakcja w ciągu godziny przy P1',
     2 => 'Regularne updates i security patches',
     3 => 'Development pool na nowe features',
-];,
+  ],
   'support_features_title' => 'Co Obejmuje Wsparcie',
   'support_features_subtitle' => 'Kompleksowa opieka nad aplikacją',
   'support_features' => 
@@ -739,7 +741,7 @@
       'title' => 'Development',
       'description' => 'Pool godzin na nowe funkcjonalności',
     ],
-];,
+  ],
   'support_tech_subtitle' => 'Narzędzia monitoringu i supportu',
   'support_tech_stack' => 
   [
@@ -760,7 +762,7 @@
       1 => 'CloudWatch',
       2 => 'Grafana',
     ],
-];,
+  ],
   'support_process_subtitle' => 'Jak działamy',
   'support_process_steps' => 
   [
@@ -788,7 +790,7 @@
       'description' => 'Nowe features według roadmapy',
       'duration' => 'Co 2 tygodnie',
     ],
-];,
+  ],
   'support_faq' => 
   [
     0 => 
@@ -806,5 +808,5 @@
       'question' => 'Czy można zmienić pakiet?',
       'answer' => 'Tak, można upgrade/downgrade z miesięcznym wyprzedzeniem.',
     ],
-];,
-);\n
+  ],
+];
