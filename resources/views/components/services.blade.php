@@ -27,7 +27,7 @@
                     <p class="text-gray-600 dark:text-gray-400 mb-4">
                         {{ __('services.saas_description') }}
                     </p>
-                    <a href="#contact" class="inline-flex items-center text-primary-600 dark:text-primary-400 font-medium group-hover:translate-x-1 transition-transform">
+                    <a href="{{ route('services.show', ['locale' => app()->getLocale(), 'service' => 'saas']) }}" class="inline-flex items-center text-primary-600 dark:text-primary-400 font-medium group-hover:translate-x-1 transition-transform">
                         {{ __('services.learn_more') }}
                         <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
@@ -51,7 +51,7 @@
                     <p class="text-gray-600 dark:text-gray-400 mb-4">
                         {{ __('services.business_description') }}
                     </p>
-                    <a href="#contact" class="inline-flex items-center text-primary-600 dark:text-primary-400 font-medium group-hover:translate-x-1 transition-transform">
+                    <a href="{{ route('services.show', ['locale' => app()->getLocale(), 'service' => 'business']) }}" class="inline-flex items-center text-primary-600 dark:text-primary-400 font-medium group-hover:translate-x-1 transition-transform">
                         {{ __('services.learn_more') }}
                         <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
@@ -75,7 +75,7 @@
                     <p class="text-gray-600 dark:text-gray-400 mb-4">
                         {{ __('services.mvp_description') }}
                     </p>
-                    <a href="#contact" class="inline-flex items-center text-primary-600 dark:text-primary-400 font-medium group-hover:translate-x-1 transition-transform">
+                    <a href="{{ route('services.show', ['locale' => app()->getLocale(), 'service' => 'mvp']) }}" class="inline-flex items-center text-primary-600 dark:text-primary-400 font-medium group-hover:translate-x-1 transition-transform">
                         {{ __('services.learn_more') }}
                         <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
@@ -99,7 +99,7 @@
                     <p class="text-gray-600 dark:text-gray-400 mb-4">
                         {{ __('services.ai_description') }}
                     </p>
-                    <a href="#contact" class="inline-flex items-center text-primary-600 dark:text-primary-400 font-medium group-hover:translate-x-1 transition-transform">
+                    <a href="{{ route('services.show', ['locale' => app()->getLocale(), 'service' => 'ai']) }}" class="inline-flex items-center text-primary-600 dark:text-primary-400 font-medium group-hover:translate-x-1 transition-transform">
                         {{ __('services.learn_more') }}
                         <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
@@ -123,7 +123,7 @@
                     <p class="text-gray-600 dark:text-gray-400 mb-4">
                         {{ __('services.integration_description') }}
                     </p>
-                    <a href="#contact" class="inline-flex items-center text-primary-600 dark:text-primary-400 font-medium group-hover:translate-x-1 transition-transform">
+                    <a href="{{ route('services.show', ['locale' => app()->getLocale(), 'service' => 'integrations']) }}" class="inline-flex items-center text-primary-600 dark:text-primary-400 font-medium group-hover:translate-x-1 transition-transform">
                         {{ __('services.learn_more') }}
                         <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
@@ -147,7 +147,7 @@
                     <p class="text-gray-600 dark:text-gray-400 mb-4">
                         {{ __('services.support_description') }}
                     </p>
-                    <a href="#contact" class="inline-flex items-center text-primary-600 dark:text-primary-400 font-medium group-hover:translate-x-1 transition-transform">
+                    <a href="{{ route('services.show', ['locale' => app()->getLocale(), 'service' => 'support']) }}" class="inline-flex items-center text-primary-600 dark:text-primary-400 font-medium group-hover:translate-x-1 transition-transform">
                         {{ __('services.learn_more') }}
                         <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
