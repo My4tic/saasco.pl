@@ -53,7 +53,7 @@
 
     <!-- Preload Critical Resources -->
     <link rel="preload" href="{{ asset('images/logo.png') }}" as="image" type="image/png">
-    @vite(['resources/css/app.css'], 'preload')
+    @vite(['resources/css/app.css'])
 
     <!-- Schema.org - Organization & LocalBusiness -->
     <script type="application/ld+json">
