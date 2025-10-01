@@ -1,0 +1,80 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+@theme {
+    --font-sans: 'Inter', 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol', 'Noto Color Emoji';
+
+    /* NextSaaS-inspired color palette */
+    --color-primary-50: oklch(0.98 0.02 260);
+    --color-primary-100: oklch(0.95 0.04 260);
+    --color-primary-200: oklch(0.90 0.08 260);
+    --color-primary-300: oklch(0.82 0.13 260);
+    --color-primary-400: oklch(0.70 0.20 260);
+    --color-primary-500: oklch(0.58 0.25 260);
+    --color-primary-600: oklch(0.50 0.27 260);
+    --color-primary-700: oklch(0.43 0.24 260);
+    --color-primary-800: oklch(0.36 0.19 260);
+    --color-primary-900: oklch(0.30 0.14 260);
+    --color-primary-950: oklch(0.20 0.09 260);
+
+    --color-accent-50: oklch(0.98 0.02 290);
+    --color-accent-100: oklch(0.95 0.04 290);
+    --color-accent-200: oklch(0.90 0.08 290);
+    --color-accent-300: oklch(0.82 0.13 290);
+    --color-accent-400: oklch(0.70 0.20 290);
+    --color-accent-500: oklch(0.60 0.25 290);
+    --color-accent-600: oklch(0.52 0.27 290);
+    --color-accent-700: oklch(0.45 0.24 290);
+    --color-accent-800: oklch(0.38 0.19 290);
+    --color-accent-900: oklch(0.32 0.14 290);
+    --color-accent-950: oklch(0.22 0.09 290);
+
+    /* Gradient stops */
+    --gradient-from-primary: oklch(0.60 0.25 260);
+    --gradient-via-accent: oklch(0.58 0.25 280);
+    --gradient-to-primary: oklch(0.55 0.23 300);
+}
+
+@layer utilities {
+    .bg-gradient-hero {
+        background: linear-gradient(135deg, var(--gradient-from-primary) 0%, var(--gradient-via-accent) 50%, var(--gradient-to-primary) 100%);
+    }
+
+    .bg-gradient-card {
+        background: linear-gradient(to bottom right, oklch(0.97 0.01 260), oklch(0.96 0.01 280));
+    }
+
+    .text-gradient {
+        background: linear-gradient(135deg, var(--gradient-from-primary), var(--gradient-to-primary));
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .animate-gradient {
+        background-size: 200% 200%;
+        animation: gradient-shift 8s ease infinite;
+    }
+
+    @keyframes gradient-shift {
+        0%, 100% { background-position: 0% 50%; }
+        50% { background-position: 100% 50%; }
+    }
+
+    .glass {
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    .dark .glass {
+        background: rgba(0, 0, 0, 0.3);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+}
