@@ -11,7 +11,7 @@ Route::get('/sitemap.xml', [SitemapController::class, 'index'])->name('sitemap')
 
 // Redirect root to default locale
 Route::get('/', function () {
-    $locale = session('locale', config('app.locale', 'pl'));
+    $locale = session('locale', config('app.locale'));
     return redirect("/{$locale}");
 });
 
