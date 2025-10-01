@@ -29,8 +29,9 @@ return [
   'tech_category_frontend' => 'Frontend',
   'tech_category_backend' => 'Backend',
   'tech_category_infrastructure' => 'Infrastructure',
-  'saas_meta_title' => 'SaaS Applications - Scalable Subscription Platforms',
-  'saas_meta_description' => 'We build professional SaaS platforms with subscription systems, billing, and full automation.',
+  'saas_meta_title' => 'SaaS Application Development - Custom Subscription Platform | Wrocław Poland',
+  'saas_meta_description' => 'Professional SaaS application development with subscription systems and multi-tenancy. Stripe, PayPal, admin panel. Software house Wrocław. Delivery 8-12 weeks. Free estimate!',
+  'saas_keywords' => 'SaaS application development, custom SaaS development, subscription platform development, multi-tenant system, scalable SaaS application, SaaS development cost, how to build a SaaS app',
   'saas_hero_title' => 'SaaS Applications Tailored to Your Needs',
   'saas_hero_description' => 'Scalable subscription platforms with full payment automation, admin panel, and user management system.',
   'saas_problem_title' => 'What Do You Need?',
@@ -147,34 +148,67 @@ return [
   ),
   'saas_faq' =>
   array (
+    // SEO Questions - basics (first)
     0 =>
     array (
-      'question' => 'How much does it cost to build a SaaS platform?',
-      'answer' => 'A typical SaaS project costs $18-35k and takes 8-12 weeks. Price depends on feature complexity and integrations.',
+      'question' => 'What is a SaaS application?',
+      'answer' => 'Software as a Service is a software delivery model where users pay a recurring subscription for access to a web application. SaaS application development differs from traditional systems by requiring complete data isolation (multi-tenancy), payment gateway integration, and subscription management mechanisms.',
     ),
     1 =>
+    array (
+      'question' => 'Why should you build a SaaS application?',
+      'answer' => 'The subscription model provides predictable revenue (MRR), easier business scaling, and the ability to expand geographically without physical presence. Building a subscription platform is an investment that, when well-executed, pays for itself many times over.',
+    ),
+    2 =>
+    array (
+      'question' => 'How much does SaaS application development cost?',
+      'answer' => 'SaaS application development cost depends on functionality scope. A simple MVP can be completed for $14-18k, a medium complexity platform is $23-35k, and an advanced enterprise system can cost $45k+. This price includes a complete platform with subscription system, admin panel, and full payment integration.',
+    ),
+    3 =>
+    array (
+      'question' => 'How long does SaaS application development take?',
+      'answer' => 'We typically deliver a standard SaaS project in 8-12 weeks for MVP and 3-6 months for the full version. Subscription platform development requires careful architecture planning at the beginning, which saves time in later phases.',
+    ),
+    4 =>
+    array (
+      'question' => 'Is it worth building SaaS in Poland?',
+      'answer' => 'Absolutely! A software house in Wrocław or other Polish cities offers an excellent quality-to-price ratio. Custom SaaS development in Poland provides 40-60% savings compared to Western markets while maintaining high code quality and the same time zone.',
+    ),
+    // Technical Questions
+    5 =>
     array (
       'question' => 'Can I change features during the project?',
       'answer' => 'Yes, we work in Agile methodology and can adjust scope during sprints. Major changes may affect timeline and budget.',
     ),
-    2 =>
+    6 =>
     array (
       'question' => 'Do you provide support after deployment?',
       'answer' => 'Yes, we offer support packages with guaranteed SLA. We can also continue developing new features for the platform.',
     ),
-    3 =>
+    7 =>
     array (
       'question' => 'What payment integrations are possible?',
       'answer' => 'We integrate Stripe or PayPal as standard. We can also integrate local payment gateways and other providers.',
     ),
-    4 =>
+    8 =>
     array (
       'question' => 'Will the platform be scalable?',
       'answer' => 'Yes, we design architecture with scalability in mind. We use auto-scaling, CDN, and performance optimization.',
     ),
+    9 =>
+    array (
+      'question' => 'How do you ensure security?',
+      'answer' => 'We implement 2FA authentication, data encryption, GDPR compliance, regular security audits, and penetration testing.',
+    ),
+    10 =>
+    array (
+      'question' => 'Can users have custom domains?',
+      'answer' => 'Yes, we implement white-labeling with custom domains, allowing each tenant to have their own branded subdomain or domain.',
+    ),
   ),
-  'business_meta_title' => 'Business Applications - CRM, ERP, B2B Systems',
-  'business_meta_description' => 'Dedicated systems supporting company processes. CRM, ERP-lite, B2B platforms.',
+  'business_meta_title' => 'Custom CRM Development - Business Applications | Wrocław Poland',
+  'business_meta_description' => 'Custom business applications: CRM, ERP, order systems, B2B platforms. Tailored to company processes. Software house Wrocław. Delivery 8-16 weeks. Free estimate!',
+  'business_keywords' => 'custom CRM development, business applications development, custom ERP system, CRM development services, tailored CRM system, business application Wrocław, custom software for companies',
   'business_hero_title' => 'Custom Business Applications',
   'business_hero_description' => 'Dedicated CRM, ERP, and B2B platforms tailored to your company processes.',
   'business_problem_title' => 'Common Problems',
@@ -291,24 +325,62 @@ return [
   ),
   'business_faq' =>
   array (
+    // SEO Questions - basics (first)
     0 =>
     array (
-      'question' => 'How long does it take to build a CRM system?',
-      'answer' => 'A typical CRM project takes 10-14 weeks. Time depends on the number of modules and integrations.',
+      'question' => 'What is a custom CRM system?',
+      'answer' => 'A custom CRM is a business application built from scratch for your specific sales, marketing, and customer service processes. Custom CRM development allows you to incorporate every unique aspect of your business - from non-standard lead statuses to complex workflow automations.',
     ),
     1 =>
+    array (
+      'question' => 'Why choose a custom business application?',
+      'answer' => 'Off-the-shelf systems force you to adapt your processes to the software\'s capabilities. A tailored CRM system works the opposite way - the software adapts to you. Plus, you have full code ownership, no per-user limits, and the ability to extend functionality freely.',
+    ),
+    2 =>
+    array (
+      'question' => 'How much does custom CRM development cost?',
+      'answer' => 'Custom CRM development is an investment of $18-46k depending on complexity. A simple CRM for a small company costs $18-23k, a medium-sized business application is $28-41k, and an advanced ERP-lite can cost $46k+. This includes a complete system tailored to your processes.',
+    ),
+    3 =>
+    array (
+      'question' => 'How long does custom CRM development take?',
+      'answer' => 'A typical CRM project takes 8-16 weeks. Custom business applications require thorough process analysis at the start (1-2 weeks), followed by development (6-12 weeks) and deployment with data migration (1-2 weeks).',
+    ),
+    4 =>
+    array (
+      'question' => 'Is a custom CRM a good investment?',
+      'answer' => 'For companies with unique processes or requirements - absolutely. A tailored CRM system eliminates per-user license costs, allows you to automate processes impossible in off-the-shelf systems, and provides competitive advantage.',
+    ),
+    // Technical Questions
+    5 =>
     array (
       'question' => 'Can you integrate with our ERP?',
       'answer' => 'Yes, we integrate with popular ERP systems via API or direct database integration.',
     ),
-    2 =>
+    6 =>
     array (
       'question' => 'What does user training look like?',
       'answer' => 'We conduct online and on-site training. We also prepare documentation and video tutorials.',
     ),
+    7 =>
+    array (
+      'question' => 'Can the system grow with the company?',
+      'answer' => 'Yes, we design systems modularly so new functionality can be easily added as the company grows.',
+    ),
+    8 =>
+    array (
+      'question' => 'Do I need my own server?',
+      'answer' => 'No, we can deploy the system in the cloud (AWS, Azure, Google Cloud) or on our infrastructure. Your own server is optional.',
+    ),
+    9 =>
+    array (
+      'question' => 'How long does deployment take for a team of 50 people?',
+      'answer' => 'Deployment includes installation, configuration, data import, and training. For 50 people, it\'s about 2-3 weeks.',
+    ),
   ),
-  'mvp_meta_title' => 'MVP for Startups - Fast Idea Validation',
-  'mvp_meta_description' => 'Functional prototype ready in 4-8 weeks. Validate your idea without burning through budget.',
+  'mvp_meta_title' => 'MVP Development for Startups - Prototype in 4-8 Weeks | Wrocław Poland',
+  'mvp_meta_description' => 'Fast application prototyping. MVP in 4 weeks for startups. Validate business idea without high costs. Software house Wrocław. How much does MVP cost? Free estimate!',
+  'mvp_keywords' => 'MVP development for startups, fast application prototyping, MVP in 4 weeks, minimum viable product, startup app prototype, MVP cost, how fast to build MVP, MVP Wrocław',
   'mvp_hero_title' => 'MVP - Validate Your Idea',
   'mvp_hero_description' => 'Working product in 4-8 weeks. Test with real users before investing in full development.',
   'mvp_problem_title' => 'Startup Challenge',
@@ -416,24 +488,62 @@ return [
   ),
   'mvp_faq' =>
   array (
+    // SEO Questions - basics (first)
     0 =>
+    array (
+      'question' => 'What is an MVP?',
+      'answer' => 'Minimum Viable Product is the minimum version of a product that contains only the core functionality needed to test business assumptions. MVP development for startups allows you to quickly enter the market, gather user feedback, and iterate the product based on real data.',
+    ),
+    1 =>
+    array (
+      'question' => 'How much does MVP cost?',
+      'answer' => 'MVP development cost depends on the scope of functionality. A simple startup app prototype costs $9-14k, medium complexity MVP is $14-18k, and a more advanced one can cost $18-28k. That\'s 50-70% savings compared to building a full application immediately.',
+    ),
+    2 =>
+    array (
+      'question' => 'How fast can you build an MVP?',
+      'answer' => 'We deliver MVPs in 4-8 weeks. Fast application prototyping requires an agile approach: 1 week for precise scope, 2-5 weeks development, 1 week for testing and fixes. From brief to deployment in less than 2 months.',
+    ),
+    3 =>
+    array (
+      'question' => 'Is an MVP enough to attract investors?',
+      'answer' => 'Yes! A working prototype with first users and metrics (user acquisition, retention, early revenue) is an excellent basis for investor conversations. Venture capital wants to see product-market fit, which you can\'t show in a presentation.',
+    ),
+    4 =>
+    array (
+      'question' => 'What makes a good MVP?',
+      'answer' => 'A minimum viable product isn\'t a "stripped application" but a smart selection of functionality. We focus on the core value proposition - that one thing that solves the user\'s main problem. You\'ll add the rest iteratively after gathering feedback.',
+    ),
+    // Technical Questions
+    5 =>
     array (
       'question' => 'How is MVP different from a full product?',
       'answer' => 'MVP has only the most important features needed to validate the idea. It\'s 20% of functionality that gives 80% of value.',
     ),
-    1 =>
+    6 =>
     array (
       'question' => 'What happens after MVP?',
       'answer' => 'After gathering feedback, we can develop the product further, adding new features in subsequent iterations.',
     ),
-    2 =>
+    7 =>
     array (
-      'question' => 'Can I attract investors with an MVP?',
-      'answer' => 'Yes! Working MVP + first users is a good basis for investor talks.',
+      'question' => 'What if the MVP doesn\'t work out?',
+      'answer' => 'That\'s the best information! You\'ll save hundreds of thousands you would have spent on a full product. You can also pivot and try a different approach.',
+    ),
+    8 =>
+    array (
+      'question' => 'Will the MVP work in production?',
+      'answer' => 'Yes, MVP is a fully functional product, just with a limited scope of features. It\'s ready to be used by real users.',
+    ),
+    9 =>
+    array (
+      'question' => 'How quickly can I start gathering feedback?',
+      'answer' => 'After 4-8 weeks you have a working product and can immediately start testing with users and collecting valuable data.',
     ),
   ),
-  'ai_meta_title' => 'AI Solutions - Chatbots, ML, Automation',
-  'ai_meta_description' => 'We implement AI in your business. Chatbots, recommendation systems, predictive analytics.',
+  'ai_meta_title' => 'AI Implementation in Applications - AI Chatbots & Solutions | Wrocław Poland',
+  'ai_meta_description' => 'AI solutions for business. Custom AI chatbot, recommendation system, predictive analytics. How to add AI to application? Software house Wrocław. Free estimate!',
+  'ai_keywords' => 'AI implementation in applications, AI solutions for business, custom AI chatbot, AI recommendation system, how to add AI to app, AI chatbot cost, GPT chatbot implementation, artificial intelligence in business',
   'ai_hero_title' => 'Intelligent AI Solutions',
   'ai_hero_description' => 'Harness the power of artificial intelligence in your company. From chatbots to advanced predictive analytics.',
   'ai_problem_title' => 'AI Potential',
@@ -542,24 +652,67 @@ return [
   ),
   'ai_faq' =>
   array (
+    // SEO Questions - basics (first)
     0 =>
+    array (
+      'question' => 'How to add AI to an application?',
+      'answer' => 'AI implementation in applications requires integration with provider APIs (OpenAI, Anthropic) or training custom models. The simplest is a custom AI chatbot based on GPT - we deliver such projects in 3-4 weeks. More complex AI solutions for business (custom ML models) take 8-16 weeks.',
+    ),
+    1 =>
+    array (
+      'question' => 'How much does an AI chatbot cost?',
+      'answer' => 'AI chatbot cost depends on complexity: simple Q&A bot is $7-9k, medium advanced with integrations is $12-18k, and an intelligent assistant with long memory and advanced workflow can cost $18-35k. GPT chatbot implementation is cheaper than building from scratch.',
+    ),
+    2 =>
+    array (
+      'question' => 'What AI solutions for business are most popular?',
+      'answer' => 'Customer service chatbots (80% of companies), recommendation systems (e-commerce, media), sentiment analysis (marketing), churn prediction (SaaS), automatic categorization (documents, images), invoice text recognition (OCR + NLP).',
+    ),
+    3 =>
+    array (
+      'question' => 'Does AI implementation require large datasets?',
+      'answer' => 'It depends. A custom AI chatbot based on GPT doesn\'t require training - just define the knowledge base. AI recommendation systems need user interaction history. Custom ML models - yes, they need data, but we can use transfer learning.',
+    ),
+    4 =>
+    array (
+      'question' => 'Artificial intelligence in business - is it worth it?',
+      'answer' => 'Absolutely! ROI from AI implementation: chatbots reduce support costs by 40-60%, recommendation systems increase conversion by 15-30%, process automation saves hundreds of man-hours monthly.',
+    ),
+    // Technical Questions
+    5 =>
     array (
       'question' => 'Is AI for every business?',
       'answer' => 'Not every case requires AI. We do an assessment and recommend only if AI gives real business value.',
     ),
-    1 =>
-    array (
-      'question' => 'How much does chatbot implementation cost?',
-      'answer' => 'Simple GPT-4 chatbot costs $5-7k. Custom ML model costs $12-18k. Depends on complexity.',
-    ),
-    2 =>
+    6 =>
     array (
       'question' => 'Do you need a lot of data?',
       'answer' => 'Depends on the case. For chatbots, sample Q&A is enough. For ML we need more data or can use transfer learning.',
     ),
+    7 =>
+    array (
+      'question' => 'How long does chatbot deployment take?',
+      'answer' => 'A simple GPT-4 chatbot can be deployed in 3-4 weeks. More advanced solutions with custom logic take 6-8 weeks.',
+    ),
+    8 =>
+    array (
+      'question' => 'Will the chatbot handle Polish language?',
+      'answer' => 'Yes, GPT-4 handles Polish excellently. We can also train custom models specific to the industry.',
+    ),
+    9 =>
+    array (
+      'question' => 'What if AI gives wrong answers?',
+      'answer' => 'We implement validation mechanisms, fallback to human, confidence scoring, and continuous quality monitoring.',
+    ),
+    10 =>
+    array (
+      'question' => 'Can I integrate AI with my system?',
+      'answer' => 'Yes, we can integrate AI with CRM, helpdesk, e-commerce, and other systems via API or webhooks.',
+    ),
   ),
-  'integration_meta_title' => 'Integrations & Automations - API, Workflow',
-  'integration_meta_description' => 'We connect systems, automate processes, build APIs.',
+  'integration_meta_title' => 'IT Systems Integration - Business Process Automation | Wrocław Poland',
+  'integration_meta_description' => 'IT systems integration: API between applications, data migration, process automation. How to connect company systems? Software house Wrocław. Free estimate!',
+  'integration_keywords' => 'IT systems integration, business process automation, API integration between systems, data migration, how to connect company systems, ERP CRM integration, workflow automation',
   'integration_hero_title' => 'System Integrations and Automations',
   'integration_hero_description' => 'Connect your tools into one coherent ecosystem. Automate repetitive processes.',
   'integration_problem_title' => 'Silo Problem',
@@ -669,24 +822,62 @@ return [
   ),
   'integration_faq' =>
   array (
+    // SEO Questions - basics (first)
     0 =>
+    array (
+      'question' => 'How to connect company systems?',
+      'answer' => 'IT systems integration requires building middleware - a layer connecting applications via API. The most popular approach is REST API + webhooks for real-time sync or scheduled jobs for batch processing. API integration between systems can be point-to-point (simple) or through ESB (enterprise service bus, for complex environments).',
+    ),
+    1 =>
+    array (
+      'question' => 'How much does systems integration cost?',
+      'answer' => 'A simple project (2 systems, basic data) costs $5-9k. Medium complexity (3-5 systems, data transformations, workflow) is $12-23k. Advanced ERP CRM integration with data migration and custom business logic can cost $23-46k.',
+    ),
+    2 =>
+    array (
+      'question' => 'What can be integrated?',
+      'answer' => 'Practically everything: CRM ↔ ERP (customers, orders), E-commerce ↔ Warehouse (stock, fulfillment), Marketing ↔ Sales (leads, campaigns), HR ↔ Finance (payroll, costs), IoT ↔ Monitoring (device data). If a system has API or database access - it can be integrated.',
+    ),
+    3 =>
+    array (
+      'question' => 'What are examples of business process automation?',
+      'answer' => 'New order in shop → automatically in ERP → warehouse notification → shipment → tracking → invoice. New lead in form → CRM → assign sales rep → welcome email → follow-up task. Invoice in email → OCR → data extraction → accounting → payment.',
+    ),
+    4 =>
+    array (
+      'question' => 'How long does integration take?',
+      'answer' => 'Simple IT systems integration takes 2-4 weeks. Medium complexity is 4-8 weeks. Legacy data migration + complex workflow is 8-16 weeks. Business process automation through integrations is an investment that pays back through team time savings.',
+    ),
+    // Technical Questions
+    5 =>
     array (
       'question' => 'Can every system be integrated?',
       'answer' => 'Almost any. If it has an API or database access - yes. We can also integrate legacy systems.',
     ),
-    1 =>
-    array (
-      'question' => 'How long does integration take?',
-      'answer' => 'Simple integration takes 1-2 weeks. Complex projects with multiple systems take 6-8 weeks.',
-    ),
-    2 =>
+    6 =>
     array (
       'question' => 'What if the system doesn\'t have an API?',
       'answer' => 'We can build an API wrapper, scraping, or integrate directly with the database.',
     ),
+    7 =>
+    array (
+      'question' => 'Can integration break after system updates?',
+      'answer' => 'We offer monitoring and support. When a vendor changes their API, we\'ll adjust the integration as part of the maintenance package.',
+    ),
+    8 =>
+    array (
+      'question' => 'How often does data synchronize?',
+      'answer' => 'Depends on needs: real-time (webhooks), every few minutes (polling), once daily (batch). We\'ll adapt to requirements.',
+    ),
+    9 =>
+    array (
+      'question' => 'Can I see the data flow before implementation?',
+      'answer' => 'Yes, we prepare an integration architecture diagram and data flow mapping for approval.',
+    ),
   ),
-  'support_meta_title' => 'Support & Development - SLA, Maintenance, Updates',
-  'support_meta_description' => 'Technical support packages with guaranteed SLA and continuous application development.',
+  'support_meta_title' => 'Application Technical Support - SLA Packages | Wrocław Poland',
+  'support_meta_description' => 'Technical support for applications with guaranteed SLA. IT system maintenance, feature development, SLA agreement. What is SLA? Software house Wrocław. Free estimate!',
+  'support_keywords' => 'application technical support, IT system maintenance, SLA support package, application development and maintenance, what is SLA, 24/7 application support, SLA agreement for applications',
   'support_hero_title' => 'Technical Support and Development',
   'support_hero_description' => 'We ensure stable system operation and develop features according to business needs.',
   'support_problem_title' => 'After Deployment',
@@ -793,20 +984,225 @@ return [
   ),
   'support_faq' =>
   array (
+    // SEO Questions - basics (first)
     0 =>
+    array (
+      'question' => 'What is SLA?',
+      'answer' => 'Service Level Agreement is a contract defining guaranteed service levels. For application support, SLA specifies: response time to incidents (e.g., 2h for Critical, 8h for Normal), problem resolution time, system availability (99.9% uptime), support hours. An SLA agreement for applications ensures problems are resolved within a defined timeframe.',
+    ),
+    1 =>
+    array (
+      'question' => 'How much does technical support cost?',
+      'answer' => 'Support packages start from $1.8k/month (20h, support 8-16, 8h response) through $3.5k/month (40h, support Mon-Fri, 4h response) to $7k+/month (dedicated team, 24/7, 1h response). IT system maintenance typically costs 10-20% of annual development costs.',
+    ),
+    2 =>
+    array (
+      'question' => 'What does an SLA support package include?',
+      'answer' => '24/7 monitoring + alerts, bug fixes and hotfixes, security updates, performance optimization, backup and disaster recovery, technical consultations, new feature development (within hours), change documentation. Application development and maintenance in one package.',
+    ),
+    3 =>
+    array (
+      'question' => '24/7 application support - is it necessary?',
+      'answer' => 'Depends on system criticality. E-commerce, SaaS, payment systems - yes, they need 24/7 because downtime = revenue loss. Internal tools used only during business hours - Mon-Fri 8-16 support is enough. We tailor the package to your needs.',
+    ),
+    4 =>
+    array (
+      'question' => 'Is it worth outsourcing IT system maintenance?',
+      'answer' => 'For most companies - yes. Cost of own team (senior dev ~$6k/month + benefits) vs support package ($1.8-3.5k/month) + scaling flexibility + access to broader software house knowledge. Application technical support as outsourcing saves 40-60% while maintaining quality.',
+    ),
+    // Technical Questions
+    5 =>
     array (
       'question' => 'What are the support packages?',
       'answer' => 'Basic (8h/mo) from $700, Standard (20h/mo) from $1.6k, Premium (40h/mo) from $2.8k. SLA from 4h to 1h.',
     ),
-    1 =>
+    6 =>
     array (
       'question' => 'What if I don\'t use all hours?',
       'answer' => 'Unused hours roll over to the next month (max 2 months).',
     ),
-    2 =>
+    7 =>
     array (
       'question' => 'Can I change the package?',
       'answer' => 'Yes, you can upgrade/downgrade with one month notice.',
     ),
+    8 =>
+    array (
+      'question' => 'Does support include new features?',
+      'answer' => 'Yes, you can use package hours for new feature development, bug fixes, optimizations, and technical consultations.',
+    ),
+    9 =>
+    array (
+      'question' => 'How quickly do you respond to incidents?',
+      'answer' => 'Depends on package and priority: P1 (Critical) - 1h, P2 (High) - 4h, P3 (Normal) - 8h, P4 (Low) - 24h.',
+    ),
+    10 =>
+    array (
+      'question' => 'Does support work 24/7?',
+      'answer' => 'Monitoring works 24/7. Support is standard Mon-Fri 8-16, but we can prepare a dedicated 24/7 on-call package.',
+    ),
+    11 =>
+    array (
+      'question' => 'What if I need more hours in a given month?',
+      'answer' => 'You can purchase additional hours at $90/h or temporarily upgrade to a higher package.',
+    ),
   ),
+
+  // Target Audiences - "Who Is It For" sections
+  'saas_target_title' => 'Who Is Custom SaaS Application Development For?',
+  'saas_target_audiences' => [
+    [
+      'title' => 'Startups with subscription models',
+      'description' => 'Planning to launch a SaaS platform and need a solid technical foundation? We build scalable SaaS applications ready to serve your first 100 and 100,000 users alike.',
+    ],
+    [
+      'title' => 'Companies digitalizing services',
+      'description' => 'Providing offline services and want to move to a SaaS model? We\'ll help design and build a subscription platform tailored to your market.',
+    ],
+    [
+      'title' => 'Entrepreneurs with B2B products',
+      'description' => 'Have a B2B product and want to monetize it as SaaS? We\'ll implement multi-tenant system, admin panel, and automatic billing.',
+    ],
+    [
+      'title' => 'Software houses without SaaS expertise',
+      'description' => 'Your company got a SaaS platform project but lacks multi-tenant architecture experience? We can support the project as tech lead or subcontractor.',
+    ],
+  ],
+
+  'business_target_title' => 'Who Is Custom CRM Development For?',
+  'business_target_audiences' => [
+    [
+      'title' => 'Companies with unique processes',
+      'description' => 'Off-the-shelf CRMs don\'t fit your sales or customer service processes? We create custom CRM systems perfectly tailored to your business specifics.',
+    ],
+    [
+      'title' => 'Manufacturing and trading companies',
+      'description' => 'Need a system for production, warehouse, or B2B order management? Business application development is our specialty - from ERP-lite to wholesale platforms.',
+    ],
+    [
+      'title' => 'Organizations with legacy systems',
+      'description' => 'Have an old system that can\'t keep up with company growth? We\'ll help migrate to a modern business application without business interruption.',
+    ],
+    [
+      'title' => 'Corporate groups',
+      'description' => 'Managing multiple companies and need a unified CRM or ERP system? We\'ll create custom software for companies with multi-entity support.',
+    ],
+  ],
+
+  'mvp_target_title' => 'Who Is MVP Development For Startups For?',
+  'mvp_target_audiences' => [
+    [
+      'title' => 'Tech startup founders',
+      'description' => 'Have an innovative product idea and need quick validation? We create MVPs in 4 weeks to test business assumptions without burning your entire budget.',
+    ],
+    [
+      'title' => 'Entrepreneurs with limited budgets',
+      'description' => 'How much does an MVP cost? Much less than a full application! A startup app prototype is $9-18k instead of $35-70k for a complete system. Start smart.',
+    ],
+    [
+      'title' => 'Companies testing new directions',
+      'description' => 'Want to test a new business model without major investment? Fast application prototyping lets you validate ideas before committing significant resources.',
+    ],
+    [
+      'title' => 'Startups seeking investors',
+      'description' => 'Need a working prototype for VC conversations? MVP in 4-8 weeks + first users is a solid foundation for investor pitches.',
+    ],
+  ],
+
+  'ai_target_title' => 'Who Is AI Implementation in Applications For?',
+  'ai_target_audiences' => [
+    [
+      'title' => 'Companies with high query volume',
+      'description' => 'Your support drowning in repetitive questions? Custom AI chatbots handle 80% of standard queries, leaving the team for complex cases. GPT chatbot implementation in 3-4 weeks.',
+    ],
+    [
+      'title' => 'E-commerce and SaaS',
+      'description' => 'Want to increase conversion through personalization? AI recommendation systems analyze user behavior and suggest products/features perfectly matched to their needs.',
+    ],
+    [
+      'title' => 'Companies with large datasets',
+      'description' => 'Have mountains of data but don\'t know how to use it? AI solutions for business: predictive analytics, pattern detection, sales forecasting - all based on your data.',
+    ],
+    [
+      'title' => 'Organizations automating processes',
+      'description' => 'How to add AI to applications to save team time? Automatic document categorization, invoice data extraction, intelligent ticket routing - artificial intelligence in business delivers ROI in 6-12 months.',
+    ],
+  ],
+
+  'integration_target_title' => 'Who Is IT Systems Integration For?',
+  'integration_target_audiences' => [
+    [
+      'title' => 'Companies with multiple independent systems',
+      'description' => 'Have CRM, ERP, e-commerce and none talk to each other? IT systems integration connects applications via API and ensures automatic data flow between tools.',
+    ],
+    [
+      'title' => 'Organizations with data duplication',
+      'description' => 'Retyping the same data between systems? How to connect company systems to eliminate manual work? API integration between systems + business process automation saves dozens of hours weekly.',
+    ],
+    [
+      'title' => 'Companies after mergers and acquisitions',
+      'description' => 'After M&A have a zoo of systems from different companies? ERP CRM integration and data migration is our specialty. We\'ll unify IT environment without business interruption.',
+    ],
+    [
+      'title' => 'E-commerce and marketplaces',
+      'description' => 'Selling on multiple platforms and losing track of inventory? Business process automation: we integrate Allegro, Amazon, your own store and synchronize stock real-time.',
+    ],
+  ],
+
+  'support_target_title' => 'Who Is Application Technical Support For?',
+  'support_target_audiences' => [
+    [
+      'title' => 'Companies with mission-critical applications',
+      'description' => 'Your application handles key business processes? Application technical support with guaranteed SLA provides 24/7 monitoring, fast incident response, and minimizes downtime.',
+    ],
+    [
+      'title' => 'Startups after project completion',
+      'description' => 'MVP deployed but need continuous development? SLA support package is IT system maintenance + regular updates + new feature development. What is SLA? Guaranteed response and resolution time.',
+    ],
+    [
+      'title' => 'Companies without internal IT',
+      'description' => 'Don\'t have your own development team? Application development and maintenance as outsourcing - we\'re your virtual CTO and tech team. 24/7 application support without fixed employment costs.',
+    ],
+    [
+      'title' => 'Organizations with legacy systems',
+      'description' => 'Have an old system that needs care? IT system maintenance is our specialty - even for 10+ year old applications in outdated technologies. Bug fixes, security patches, compatibility with new versions.',
+    ],
+  ],
+
+  // Related Services - Internal Linking
+  'related_services_title' => 'Related Services',
+  'related_services_subtitle' => 'See also other solutions that may interest you',
+
+  'related_services' => [
+    'saas' => [
+      ['slug' => 'business', 'title' => 'Business Applications', 'description' => 'Custom CRM and ERP systems'],
+      ['slug' => 'mvp', 'title' => 'MVP for Startups', 'description' => 'Quick idea validation in 4-8 weeks'],
+      ['slug' => 'integrations', 'title' => 'Integrations', 'description' => 'Connect with external systems via API'],
+    ],
+    'business' => [
+      ['slug' => 'saas', 'title' => 'SaaS Applications', 'description' => 'Scalable subscription platforms'],
+      ['slug' => 'integrations', 'title' => 'Integrations', 'description' => 'Connect systems and automate processes'],
+      ['slug' => 'support', 'title' => 'Support & Development', 'description' => 'Continuous development and maintenance'],
+    ],
+    'mvp' => [
+      ['slug' => 'saas', 'title' => 'SaaS Applications', 'description' => 'Expand MVP into full SaaS platform'],
+      ['slug' => 'business', 'title' => 'Business Applications', 'description' => 'Custom systems tailored to business'],
+      ['slug' => 'ai', 'title' => 'AI Solutions', 'description' => 'Enhance MVP with AI features'],
+    ],
+    'ai' => [
+      ['slug' => 'saas', 'title' => 'SaaS Applications', 'description' => 'SaaS platforms with built-in AI'],
+      ['slug' => 'business', 'title' => 'Business Applications', 'description' => 'CRM systems with intelligent automation'],
+      ['slug' => 'integrations', 'title' => 'Integrations', 'description' => 'Integrate AI with existing systems'],
+    ],
+    'integration' => [
+      ['slug' => 'business', 'title' => 'Business Applications', 'description' => 'Systems ready for integration'],
+      ['slug' => 'ai', 'title' => 'AI Solutions', 'description' => 'Intelligent process automation'],
+      ['slug' => 'support', 'title' => 'Support & Development', 'description' => 'Integration maintenance and expansion'],
+    ],
+    'support' => [
+      ['slug' => 'business', 'title' => 'Business Applications', 'description' => 'Systems requiring support'],
+      ['slug' => 'integrations', 'title' => 'Integrations', 'description' => 'Expand through new integrations'],
+      ['slug' => 'ai', 'title' => 'AI Solutions', 'description' => 'Enhance system with AI'],
+    ],
+  ],
 ];
