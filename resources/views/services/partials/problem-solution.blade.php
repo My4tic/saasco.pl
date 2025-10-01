@@ -1,5 +1,5 @@
 <!-- Problem/Solution Section -->
-<section class="py-20 bg-white dark:bg-gray-950">
+<section class="pt-32 pb-20 bg-white dark:bg-gray-950">
     <div class="container mx-auto px-4 sm:px-6 lg:px-8">
         <div class="grid md:grid-cols-2 gap-12 max-w-6xl mx-auto">
             <div>

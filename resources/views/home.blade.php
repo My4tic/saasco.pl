@@ -22,7 +22,7 @@
             </div>
 
             <div class="max-w-2xl mx-auto">
-                <form action="{{ route('contact.submit') }}" method="POST" class="space-y-6">
+                <form action="{{ route('contact.submit', ['locale' => app()->getLocale()]) }}" method="POST" class="space-y-6">
                     @csrf
 
                     <div class="grid md:grid-cols-2 gap-6">

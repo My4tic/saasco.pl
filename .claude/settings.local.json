@@ -1,19 +1,10 @@
 {
   "permissions": {
     "allow": [
-      "WebFetch(domain:next-sass-html.vercel.app)",
-      "Bash(npm install:*)",
-      "Bash(npm run build:*)",
-      "Bash(curl:*)",
-      "Bash(php artisan view:clear:*)",
-      "Bash(php artisan:*)",
-      "Bash(php artisan config:clear:*)",
-      "Bash(pkill:*)",
-      "Bash(composer require:*)",
-      "Bash(php:*)",
-      "Bash(git add:*)",
-      "Bash(git commit -m \"$(cat <<''EOF''\nAdd service detail pages for all 6 services\n\nCreated dedicated pages for each service offering with comprehensive content:\n- SaaS Applications (/services/saas)\n- Business Applications (/services/business) \n- MVP for Startups (/services/mvp)\n- AI Solutions (/services/ai)\n- Integrations & Automations (/services/integrations)\n- Support & Development (/services/support)\n\nFeatures:\n- ServiceController with route validation\n- Reusable layout with hero, breadcrumbs, and CTA sections\n- Extended Polish translations with detailed service content\n- Problem/solution sections, features, tech stack, process timeline, and FAQ\n- Updated service cards on homepage to link to detail pages\n- Locale-aware routing (/{locale}/services/{service})\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
-      "Bash(git config:*)"
+      "Bash(git commit -m \"$(cat <<''EOF''\nAdd contact page with form and email notifications\n\nCreated comprehensive contact page with database storage and email notifications:\n\nFeatures:\n- Contact form with validation (name, email, company, phone, budget, message)\n- Company info sidebar (Nutrigen Sp. z o.o.)\n- Database storage in contact_submissions table\n- Email notifications via ContactFormMail mailable (queued)\n- Professional HTML email template\n- Locale tracking (PL/EN) and IP address logging\n- Success/error messages with proper validation\n\nComponents:\n- ContactController with index and submit methods\n- ContactSubmission model with fillable fields\n- Database migration for contact_submissions table\n- ContactFormMail mailable class (implements ShouldQueue)\n- HTML email template (resources/views/emails/contact-form.blade.php)\n- Contact page view with responsive layout\n- Updated navigation with contact page link\n- Complete PL/EN translations\n\nRoutes:\n- GET /{locale}/contact - display contact form\n- POST /{locale}/contact - submit form\n\nAll submissions are saved to database and sent via email to configured address.\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
+      "Bash(git checkout:*)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nImprove service pages with 2-column layouts, colors, and contact forms\n\nEnhanced user experience on service pages with better visual organization:\n\n**FAQ Section (2 columns):**\n- Changed FAQ layout from single column to 2-column grid\n- Expanded all FAQs from 3-5 questions to 7 questions each\n- Added hover effects for better interactivity\n- Improved spacing and readability\n\n**Contact Forms:**\n- Added contact form partial (contact-form.blade.php)\n- Integrated contact form on all 6 service pages\n- Forms include all fields: name, email, company, phone, budget, message\n- Full validation and success/error message handling\n- Dark mode support maintained\n\n**Process Section Enhancements:**\n- Homepage \"How We Work\" section: Changed from vertical timeline to 2-column grid\n- Service pages: Added colorful badges for each process step\n- 6 unique colors rotating through steps: primary, accent, blue, green, purple, pink\n- Added 6th process step to all services for better 2x3 grid layout\n- Consistent styling across all pages with hover effects\n\n**Navigation Updates:**\n- Updated CTA buttons to link to #contact (form on same page)\n- Improved anchor navigation from hero section\n\n**Translation Updates:**\n- Added company details: KRS number, business hours\n- Extended FAQ content for all 6 services (SaaS, Business, MVP, AI, Integrations, Support)\n\nAll changes fully responsive with mobile-first design approach.\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
+      "Bash(git commit:*)"
     ],
     "deny": [],
     "ask": []

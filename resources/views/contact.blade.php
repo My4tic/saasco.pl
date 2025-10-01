@@ -5,7 +5,7 @@
 
 @section('content')
 <!-- Hero Section -->
-<section class="relative py-20 bg-gradient-to-br from-primary-500 via-accent-500 to-primary-600 overflow-hidden">
+<section class="relative pt-32 pb-20 bg-gradient-to-br from-primary-500 via-accent-500 to-primary-600 overflow-hidden">
     <div class="absolute inset-0 bg-grid-white/[0.05] bg-[size:30px_30px]"></div>
     <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div class="max-w-3xl mx-auto text-center text-white">
@@ -161,15 +161,19 @@
                                 <p class="font-semibold text-gray-900 dark:text-white">Nutrigen Sp. z o.o.</p>
                             </div>
                             <div>
-                                <p class="text-sm text-gray-600 dark:text-gray-400 mb-1">{{ __('contact.nip') }}</p>
-                                <p class="font-semibold text-gray-900 dark:text-white">NIP: 123-456-78-90</p>
-                            </div>
-                            <div>
                                 <p class="text-sm text-gray-600 dark:text-gray-400 mb-1">{{ __('contact.address') }}</p>
                                 <p class="font-semibold text-gray-900 dark:text-white">
-                                    ul. Przykładowa 123<br>
-                                    00-000 Warszawa
+                                    Św. Mikołaja 8-11<br>
+                                    50-125 Wrocław
                                 </p>
+                            </div>
+                            <div>
+                                <p class="text-sm text-gray-600 dark:text-gray-400 mb-1">{{ __('contact.nip') }}</p>
+                                <p class="font-semibold text-gray-900 dark:text-white">8971881125</p>
+                            </div>
+                            <div>
+                                <p class="text-sm text-gray-600 dark:text-gray-400 mb-1">{{ __('contact.krs') }}</p>
+                                <p class="font-semibold text-gray-900 dark:text-white">0000851334</p>
                             </div>
                         </div>
                     </div>
@@ -180,18 +184,30 @@
                             {{ __('contact.direct_contact') }}
                         </h3>
                         <div class="space-y-4">
-                            <a href="mailto:kontakt@nutrigen.pl" class="flex items-center gap-3 text-gray-700 dark:text-gray-300 hover:text-primary-500 transition-colors">
+                            <a href="mailto:kontakt@saasco.pl" class="flex items-center gap-3 text-gray-700 dark:text-gray-300 hover:text-primary-500 transition-colors">
                                 <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
                                 </svg>
-                                <span>kontakt@nutrigen.pl</span>
+                                <span>kontakt@saasco.pl</span>
                             </a>
-                            <a href="tel:+48123456789" class="flex items-center gap-3 text-gray-700 dark:text-gray-300 hover:text-primary-500 transition-colors">
-                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
+                        </div>
+                    </div>
+
+                    <!-- Business Hours -->
+                    <div class="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-6">
+                        <h3 class="text-lg font-bold text-gray-900 dark:text-white mb-4">
+                            {{ __('contact.business_hours') }}
+                        </h3>
+                        <div class="space-y-2">
+                            <div class="flex items-center gap-3 text-gray-700 dark:text-gray-300">
+                                <svg class="w-5 h-5 text-primary-600 dark:text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
                                 </svg>
-                                <span>+48 123 456 789</span>
-                            </a>
+                                <div>
+                                    <p class="font-medium">{{ __('contact.weekdays') }}</p>
+                                    <p class="text-sm text-gray-600 dark:text-gray-400">8:00 - 16:00</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
@@ -199,7 +215,7 @@
                     <div class="bg-gradient-to-br from-primary-500 to-accent-500 rounded-2xl shadow-xl p-6 text-white">
                         <div class="flex items-center gap-3 mb-2">
                             <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
                             </svg>
                             <h3 class="text-lg font-bold">{{ __('contact.response_time_title') }}</h3>
                         </div>
