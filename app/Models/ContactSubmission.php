@@ -15,10 +15,14 @@ class ContactSubmission extends Model
         'message',
         'locale',
         'ip_address',
+        'is_read',
+        'archived_at',
     ];
 
     protected $casts = [
         'created_at' => 'datetime',
         'updated_at' => 'datetime',
+        'archived_at' => 'datetime',
+        'is_read' => 'boolean',
     ];
 }

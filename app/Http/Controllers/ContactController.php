@@ -39,7 +39,8 @@ class ContactController extends Controller
 
         // Send email notification
         try {
-            Mail::to(config('mail.from.address'))
+            $contactEmail = config('mail.contact_email', 'kontakt@saasco.pl');
+            Mail::to($contactEmail)
                 ->send(new ContactFormMail($submission));
         } catch (\Exception $e) {
             \Log::error('Failed to send contact form email: ' . $e->getMessage());
