@@ -11,7 +11,7 @@
         </div>
 
         <!-- Portfolio Grid -->
-        <div class="grid md:grid-cols-2 gap-8 mb-12">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-8 mb-12">
             @foreach([
                 ['name' => 'CloudInvoice', 'key' => 'cloud_invoice', 'gradient' => 'from-blue-500 to-cyan-500'],
                 ['name' => 'MediCRM', 'key' => 'medi_crm', 'gradient' => 'from-purple-500 to-pink-500'],
