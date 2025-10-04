@@ -22,25 +22,22 @@
                 </p>
             </div>
 
-            <div class="max-w-2xl mx-auto">
-                @if(session('success'))
-                    <div class="mb-6 p-4 bg-green-100 dark:bg-green-900/20 border border-green-500 text-green-700 dark:text-green-300 rounded-lg">
-                        {{ session('success') }}
-                    </div>
-                @endif
+            <div class="max-w-2xl mx-auto" x-data="contactForm('{{ route('contact.submit', ['locale' => app()->getLocale()]) }}', '{{ csrf_token() }}')">
+                <!-- Success Message -->
+                <div x-show="success" x-transition class="mb-6 p-4 bg-green-100 dark:bg-green-900/20 border border-green-500 text-green-700 dark:text-green-300 rounded-lg">
+                    <span x-text="successMessage"></span>
+                </div>
 
-                @if($errors->any())
-                    <div class="mb-6 p-4 bg-red-100 dark:bg-red-900/20 border border-red-500 text-red-700 dark:text-red-300 rounded-lg">
-                        <ul class="list-disc list-inside">
-                            @foreach($errors->all() as $error)
-                                <li>{{ $error }}</li>
-                            @endforeach
-                        </ul>
-                    </div>
-                @endif
+                <!-- Error Messages -->
+                <div x-show="errors.length > 0" x-transition class="mb-6 p-4 bg-red-100 dark:bg-red-900/20 border border-red-500 text-red-700 dark:text-red-300 rounded-lg">
+                    <ul class="list-disc list-inside">
+                        <template x-for="error in errors" :key="error">
+                            <li x-text="error"></li>
+                        </template>
+                    </ul>
+                </div>
 
-                <form action="{{ route('contact.submit', ['locale' => app()->getLocale()]) }}" method="POST" class="space-y-6">
-                    @csrf
+                <form @submit.prevent="submitForm" class="space-y-6">
 
                     <div class="grid md:grid-cols-2 gap-6">
                         <div>
@@ -87,15 +84,68 @@
                     </div>
 
                     <div>
-                        <button type="submit" class="w-full px-8 py-4 bg-gradient-hero text-white text-base font-semibold rounded-lg hover:shadow-xl hover:scale-105 transition-all duration-200">
-                            {{ __('contact.send') }}
-                            <svg class="inline-block w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
-                            </svg>
+                        <button type="submit" :disabled="loading" class="w-full px-8 py-4 bg-gradient-hero text-white text-base font-semibold rounded-lg hover:shadow-xl hover:scale-105 transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed">
+                            <span x-show="!loading">
+                                {{ __('contact.send') }}
+                                <svg class="inline-block w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
+                                </svg>
+                            </span>
+                            <span x-show="loading">
+                                {{ __('contact.sending') ?? 'Wysyłanie...' }}
+                            </span>
                         </button>
                     </div>
                 </form>
             </div>
         </div>
     </section>
+
+    <script>
+        function contactForm(actionUrl, csrfToken) {
+            return {
+                loading: false,
+                success: false,
+                successMessage: '',
+                errors: [],
+
+                async submitForm(event) {
+                    this.loading = true;
+                    this.success = false;
+                    this.errors = [];
+
+                    const formData = new FormData(event.target);
+
+                    try {
+                        const response = await fetch(actionUrl, {
+                            method: 'POST',
+                            headers: {
+                                'X-CSRF-TOKEN': csrfToken,
+                                'Accept': 'application/json',
+                            },
+                            body: formData
+                        });
+
+                        const data = await response.json();
+
+                        if (response.ok) {
+                            this.success = true;
+                            this.successMessage = data.message || '{{ __("contact.success_message") }}';
+                            event.target.reset();
+                        } else {
+                            if (data.errors) {
+                                this.errors = Object.values(data.errors).flat();
+                            } else {
+                                this.errors = [data.message || '{{ __("contact.error_message") ?? "Wystąpił błąd. Spróbuj ponownie." }}'];
+                            }
+                        }
+                    } catch (error) {
+                        this.errors = ['{{ __("contact.error_message") ?? "Wystąpił błąd. Spróbuj ponownie." }}'];
+                    } finally {
+                        this.loading = false;
+                    }
+                }
+            }
+        }
+    </script>
 @endsection

@@ -15,7 +15,9 @@ return [
     'select_budget' => 'Select budget',
     'message' => 'Describe your project',
     'send' => 'Send message',
+    'sending' => 'Sending...',
     'success_message' => 'Thank you for your message! We\'ll get back to you within 24 hours.',
+    'error_message' => 'An error occurred while sending your message. Please try again.',
 
     'company_info' => 'Company Information',
     'company_name' => 'Company Name',

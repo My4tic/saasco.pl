@@ -11,25 +11,22 @@
                 </p>
             </div>
 
-            <div class="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-8">
-                @if(session('success'))
-                    <div class="mb-6 p-4 bg-green-100 dark:bg-green-900/20 border border-green-500 text-green-700 dark:text-green-300 rounded-lg">
-                        {{ session('success') }}
-                    </div>
-                @endif
+            <div class="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-8" x-data="contactForm('{{ route('contact.submit', ['locale' => app()->getLocale()]) }}', '{{ csrf_token() }}')">
+                <!-- Success Message -->
+                <div x-show="success" x-transition class="mb-6 p-4 bg-green-100 dark:bg-green-900/20 border border-green-500 text-green-700 dark:text-green-300 rounded-lg">
+                    <span x-text="successMessage"></span>
+                </div>
 
-                @if($errors->any())
-                    <div class="mb-6 p-4 bg-red-100 dark:bg-red-900/20 border border-red-500 text-red-700 dark:text-red-300 rounded-lg">
-                        <ul class="list-disc list-inside">
-                            @foreach($errors->all() as $error)
-                                <li>{{ $error }}</li>
-                            @endforeach
-                        </ul>
-                    </div>
-                @endif
+                <!-- Error Messages -->
+                <div x-show="errors.length > 0" x-transition class="mb-6 p-4 bg-red-100 dark:bg-red-900/20 border border-red-500 text-red-700 dark:text-red-300 rounded-lg">
+                    <ul class="list-disc list-inside">
+                        <template x-for="error in errors" :key="error">
+                            <li x-text="error"></li>
+                        </template>
+                    </ul>
+                </div>
 
-                <form action="{{ route('contact.submit', ['locale' => app()->getLocale()]) }}" method="POST" class="space-y-6">
-                    @csrf
+                <form @submit.prevent="submitForm" class="space-y-6">
 
                     <div class="grid md:grid-cols-2 gap-6">
                         <div>
@@ -114,12 +111,62 @@
 
                     <button
                         type="submit"
-                        class="w-full px-8 py-4 bg-gradient-to-r from-primary-500 to-accent-500 text-white font-semibold rounded-lg hover:shadow-lg transition-all duration-300 transform hover:scale-105"
+                        :disabled="loading"
+                        class="w-full px-8 py-4 bg-gradient-to-r from-primary-500 to-accent-500 text-white font-semibold rounded-lg hover:shadow-lg transition-all duration-300 transform hover:scale-105 disabled:opacity-50 disabled:cursor-not-allowed"
                     >
-                        {{ __('contact.send') }}
+                        <span x-show="!loading">{{ __('contact.send') }}</span>
+                        <span x-show="loading">{{ __('contact.sending') ?? 'Wysyłanie...' }}</span>
                     </button>
                 </form>
             </div>
         </div>
     </div>
 </section>
+
+<script>
+    function contactForm(actionUrl, csrfToken) {
+        return {
+            loading: false,
+            success: false,
+            successMessage: '',
+            errors: [],
+
+            async submitForm(event) {
+                this.loading = true;
+                this.success = false;
+                this.errors = [];
+
+                const formData = new FormData(event.target);
+
+                try {
+                    const response = await fetch(actionUrl, {
+                        method: 'POST',
+                        headers: {
+                            'X-CSRF-TOKEN': csrfToken,
+                            'Accept': 'application/json',
+                        },
+                        body: formData
+                    });
+
+                    const data = await response.json();
+
+                    if (response.ok) {
+                        this.success = true;
+                        this.successMessage = data.message || '{{ __("contact.success_message") }}';
+                        event.target.reset();
+                    } else {
+                        if (data.errors) {
+                            this.errors = Object.values(data.errors).flat();
+                        } else {
+                            this.errors = [data.message || '{{ __("contact.error_message") ?? "Wystąpił błąd. Spróbuj ponownie." }}'];
+                        }
+                    }
+                } catch (error) {
+                    this.errors = ['{{ __("contact.error_message") ?? "Wystąpił błąd. Spróbuj ponownie." }}'];
+                } finally {
+                    this.loading = false;
+                }
+            }
+        }
+    }
+</script>

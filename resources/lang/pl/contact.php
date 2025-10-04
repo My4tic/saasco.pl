@@ -15,7 +15,9 @@ return [
     'select_budget' => 'Wybierz budżet',
     'message' => 'Opisz swój projekt',
     'send' => 'Wyślij wiadomość',
+    'sending' => 'Wysyłanie...',
     'success_message' => 'Dziękujemy za wiadomość! Skontaktujemy się z Tobą w ciągu 24 godzin.',
+    'error_message' => 'Wystąpił błąd podczas wysyłania wiadomości. Spróbuj ponownie.',
 
     'company_info' => 'Dane firmy',
     'company_name' => 'Nazwa firmy',
