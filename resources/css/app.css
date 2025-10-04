@@ -80,19 +80,68 @@
 
     /* Button improvements */
     .btn-primary {
-        @apply inline-flex items-center px-6 py-3 bg-gradient-hero text-white font-semibold rounded-lg
-               shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-200;
+        display: inline-flex;
+        align-items: center;
+        padding: 0.75rem 1.5rem;
+        background: linear-gradient(135deg, var(--gradient-from-primary) 0%, var(--gradient-via-accent) 50%, var(--gradient-to-primary) 100%);
+        color: white;
+        font-weight: 600;
+        border-radius: 0.5rem;
+        box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+        transition: all 0.2s;
+    }
+
+    .btn-primary:hover {
+        box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+        transform: scale(1.05);
     }
 
     .btn-secondary {
-        @apply inline-flex items-center px-6 py-3 bg-white dark:bg-gray-800 text-gray-900 dark:text-white
-               font-semibold rounded-lg border-2 border-gray-200 dark:border-gray-700
-               hover:border-primary-500 dark:hover:border-primary-500 hover:shadow-lg
-               transition-all duration-200;
+        display: inline-flex;
+        align-items: center;
+        padding: 0.75rem 1.5rem;
+        background: white;
+        color: rgb(17 24 39);
+        font-weight: 600;
+        border-radius: 0.5rem;
+        border: 2px solid rgb(229 231 235);
+        transition: all 0.2s;
+    }
+
+    .dark .btn-secondary {
+        background: rgb(31 41 55);
+        color: white;
+        border-color: rgb(55 65 81);
+    }
+
+    .btn-secondary:hover {
+        border-color: oklch(0.50 0.27 260);
+        box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    }
+
+    .dark .btn-secondary:hover {
+        border-color: oklch(0.50 0.27 260);
     }
 
     .btn-ghost {
-        @apply inline-flex items-center px-6 py-3 text-gray-700 dark:text-gray-300 font-medium rounded-lg
-               hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors duration-200;
+        display: inline-flex;
+        align-items: center;
+        padding: 0.75rem 1.5rem;
+        color: rgb(55 65 81);
+        font-weight: 500;
+        border-radius: 0.5rem;
+        transition: color 0.2s, background-color 0.2s;
+    }
+
+    .dark .btn-ghost {
+        color: rgb(209 213 219);
+    }
+
+    .btn-ghost:hover {
+        background: rgb(243 244 246);
+    }
+
+    .dark .btn-ghost:hover {
+        background: rgb(31 41 55);
     }
 }
