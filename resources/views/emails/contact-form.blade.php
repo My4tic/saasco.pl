@@ -100,32 +100,17 @@
                 </div>
             </div>
 
-            @if($submission->company)
             <div class="field">
-                <div class="field-label">Firma</div>
-                <div class="field-value">{{ $submission->company }}</div>
+                <div class="field-label">NIP</div>
+                <div class="field-value">{{ $submission->nip }}</div>
             </div>
-            @endif
 
-            @if($submission->phone)
-            <div class="field">
-                <div class="field-label">Telefon</div>
-                <div class="field-value">
-                    <a href="tel:{{ $submission->phone }}" style="color: #667eea; text-decoration: none;">
-                        {{ $submission->phone }}
-                    </a>
-                </div>
-            </div>
-            @endif
-
-            @if($submission->budget)
             <div class="field">
                 <div class="field-label">Budżet</div>
                 <div class="field-value">
                     <span class="badge">{{ $submission->budget }}</span>
                 </div>
             </div>
-            @endif
 
             <div class="field">
                 <div class="field-label">Wiadomość</div>

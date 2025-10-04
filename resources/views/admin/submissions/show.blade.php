@@ -105,25 +105,11 @@
                             </p>
                         </div>
 
-                        @if($submission->company)
                         <div>
-                            <h3 class="text-sm font-medium text-gray-500 dark:text-gray-400 uppercase mb-2">Company</h3>
-                            <p class="text-lg text-gray-900 dark:text-white">{{ $submission->company }}</p>
+                            <h3 class="text-sm font-medium text-gray-500 dark:text-gray-400 uppercase mb-2">NIP</h3>
+                            <p class="text-lg text-gray-900 dark:text-white">{{ $submission->nip }}</p>
                         </div>
-                        @endif
 
-                        @if($submission->phone)
-                        <div>
-                            <h3 class="text-sm font-medium text-gray-500 dark:text-gray-400 uppercase mb-2">Phone</h3>
-                            <p class="text-lg text-gray-900 dark:text-white">
-                                <a href="tel:{{ $submission->phone }}" class="text-indigo-600 hover:text-indigo-900 dark:text-indigo-400 dark:hover:text-indigo-300">
-                                    {{ $submission->phone }}
-                                </a>
-                            </p>
-                        </div>
-                        @endif
-
-                        @if($submission->budget)
                         <div>
                             <h3 class="text-sm font-medium text-gray-500 dark:text-gray-400 uppercase mb-2">Budget</h3>
                             <p class="text-lg text-gray-900 dark:text-white">
@@ -132,7 +118,6 @@
                                 </span>
                             </p>
                         </div>
-                        @endif
                     </div>
 
                     <!-- Message -->

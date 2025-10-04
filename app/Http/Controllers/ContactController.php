@@ -19,9 +19,8 @@ class ContactController extends Controller
         $validated = $request->validate([
             'name' => 'required|string|min:3|max:100',
             'email' => 'required|email|max:255',
-            'company' => 'nullable|string|max:100',
-            'phone' => 'nullable|string|max:20',
-            'budget' => 'nullable|string|max:50',
+            'nip' => 'required|string|size:10|regex:/^[0-9]{10}$/',
+            'budget' => 'required|string|max:50',
             'message' => 'required|string|min:10|max:2000',
         ]);
 
@@ -29,9 +28,8 @@ class ContactController extends Controller
         $submission = ContactSubmission::create([
             'name' => $validated['name'],
             'email' => $validated['email'],
-            'company' => $validated['company'] ?? null,
-            'phone' => $validated['phone'] ?? null,
-            'budget' => $validated['budget'] ?? null,
+            'nip' => $validated['nip'],
+            'budget' => $validated['budget'],
             'message' => $validated['message'],
             'locale' => app()->getLocale(),
             'ip_address' => $request->ip(),

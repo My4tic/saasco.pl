@@ -80,41 +80,32 @@
                                 </div>
                             </div>
 
-                            <div class="grid md:grid-cols-2 gap-6">
-                                <div>
-                                    <label for="company" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
-                                        {{ __('contact.company') }}
-                                    </label>
-                                    <input
-                                        type="text"
-                                        id="company"
-                                        name="company"
-                                        value="{{ old('company') }}"
-                                        class="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-primary-500 dark:bg-gray-700 dark:text-white"
-                                    >
-                                </div>
-
-                                <div>
-                                    <label for="phone" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
-                                        {{ __('contact.phone') }}
-                                    </label>
-                                    <input
-                                        type="tel"
-                                        id="phone"
-                                        name="phone"
-                                        value="{{ old('phone') }}"
-                                        class="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-primary-500 dark:bg-gray-700 dark:text-white"
-                                    >
-                                </div>
+                            <div>
+                                <label for="nip" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                                    {{ __('contact.nip_field') }} <span class="text-red-500">*</span>
+                                </label>
+                                <input
+                                    type="text"
+                                    id="nip"
+                                    name="nip"
+                                    value="{{ old('nip') }}"
+                                    required
+                                    minlength="10"
+                                    maxlength="10"
+                                    pattern="[0-9]{10}"
+                                    placeholder="1234567890"
+                                    class="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-primary-500 dark:bg-gray-700 dark:text-white"
+                                >
                             </div>
 
                             <div>
                                 <label for="budget" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
-                                    {{ __('contact.budget') }}
+                                    {{ __('contact.budget') }} <span class="text-red-500">*</span>
                                 </label>
                                 <select
                                     id="budget"
                                     name="budget"
+                                    required
                                     class="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-primary-500 dark:bg-gray-700 dark:text-white"
                                 >
                                     <option value="">{{ __('contact.select_budget') }}</option>
