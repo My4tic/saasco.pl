@@ -11,12 +11,20 @@
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
 
+        <!-- Dark mode script - must run before page render -->
+        <script>
+            // Apply dark mode immediately to prevent flash
+            if (localStorage.getItem('darkMode') !== 'false') {
+                document.documentElement.classList.add('dark');
+            }
+        </script>
+
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
     <body class="font-sans text-gray-900 dark:text-gray-100 antialiased"
         x-data="{ darkMode: localStorage.getItem('darkMode') === 'false' ? false : true }"
-        x-init="$watch('darkMode', val => { localStorage.setItem('darkMode', val); document.documentElement.classList.toggle('dark', val) }); document.documentElement.classList.toggle('dark', darkMode)"
+        x-init="$watch('darkMode', val => { localStorage.setItem('darkMode', val); document.documentElement.classList.toggle('dark', val) })"
         :class="{ 'dark': darkMode }">
         <div class="min-h-screen flex flex-col sm:justify-center items-center pt-6 sm:pt-0 bg-gray-100 dark:bg-gray-900">
             <div>
