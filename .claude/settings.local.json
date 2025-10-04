@@ -14,7 +14,8 @@
       "Bash(php artisan migrate:fresh:*)",
       "Bash(git add:*)",
       "Bash(npm install)",
-      "Bash(node:*)"
+      "Bash(node:*)",
+      "Bash(npm run build:*)"
     ],
     "deny": [],
     "ask": []
