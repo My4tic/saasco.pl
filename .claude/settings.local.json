@@ -12,7 +12,9 @@
       "Bash(php artisan make:middleware:*)",
       "Bash(php artisan make:seeder:*)",
       "Bash(php artisan migrate:fresh:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(npm install)",
+      "Bash(node:*)"
     ],
     "deny": [],
     "ask": []
