@@ -9,7 +9,7 @@
             </p>
         </div>
 
-        <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-8 lg:gap-10">
+        <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-8 lg:gap-10">
             <!-- Step 1: Discovery -->
             <div class="group relative bg-white dark:bg-gray-800 rounded-2xl p-6 lg:p-8 shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 dark:border-gray-700">
                 <div class="flex items-start gap-4 mb-4">
