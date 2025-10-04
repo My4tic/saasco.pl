@@ -61,40 +61,42 @@
                         </div>
                     </div>
 
-                    <div>
-                        <label for="nip" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
-                            {{ __('contact.nip_field') }} <span class="text-red-500">*</span>
-                        </label>
-                        <input
-                            type="text"
-                            id="nip"
-                            name="nip"
-                            value="{{ old('nip') }}"
-                            required
-                            minlength="10"
-                            maxlength="10"
-                            pattern="[0-9]{10}"
-                            placeholder="1234567890"
-                            class="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-primary-500 dark:bg-gray-700 dark:text-white transition-all"
-                        >
-                    </div>
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div>
+                            <label for="nip" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                                {{ __('contact.nip_field') }} <span class="text-red-500">*</span>
+                            </label>
+                            <input
+                                type="text"
+                                id="nip"
+                                name="nip"
+                                value="{{ old('nip') }}"
+                                required
+                                minlength="10"
+                                maxlength="10"
+                                pattern="[0-9]{10}"
+                                placeholder="1234567890"
+                                class="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-primary-500 dark:bg-gray-700 dark:text-white transition-all"
+                            >
+                        </div>
 
-                    <div>
-                        <label for="budget" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
-                            {{ __('contact.budget') }} <span class="text-red-500">*</span>
-                        </label>
-                        <select
-                            id="budget"
-                            name="budget"
-                            required
-                            class="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-primary-500 dark:bg-gray-700 dark:text-white transition-all"
-                        >
+                        <div>
+                            <label for="budget" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                                {{ __('contact.budget') }} <span class="text-red-500">*</span>
+                            </label>
+                            <select
+                                id="budget"
+                                name="budget"
+                                required
+                                class="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-primary-500 dark:bg-gray-700 dark:text-white transition-all"
+                            >
                             <option value="">{{ __('contact.select_budget') }}</option>
                             <option value="< 30k PLN" {{ old('budget') == '< 30k PLN' ? 'selected' : '' }}>< 30k PLN</option>
                             <option value="30k - 60k PLN" {{ old('budget') == '30k - 60k PLN' ? 'selected' : '' }}>30k - 60k PLN</option>
                             <option value="60k - 100k PLN" {{ old('budget') == '60k - 100k PLN' ? 'selected' : '' }}>60k - 100k PLN</option>
                             <option value="100k+ PLN" {{ old('budget') == '100k+ PLN' ? 'selected' : '' }}>100k+ PLN</option>
                         </select>
+                        </div>
                     </div>
 
                     <div>
